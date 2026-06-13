@@ -1,0 +1,276 @@
+.contact-info-section {
+  padding: 5rem 2rem;
+  background: var(--white);
+}
+
+.contact-info-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* Header */
+
+.contact-section-header {
+  margin-bottom: 2rem;
+}
+
+.contact-left-header {
+  text-align: left;
+}
+
+.contact-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: var(--red);
+}
+
+.contact-section-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 900;
+
+  line-height: 1.15;
+  color: var(--black);
+}
+
+.contact-hindi {
+  display: block;
+
+  margin-top: 6px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+
+  color: var(--red);
+}
+
+.contact-divider {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.contact-divider span {
+  width: 60px;
+  height: 1px;
+
+  background: var(--red);
+}
+
+.contact-dia {
+  width: 8px;
+  height: 8px;
+
+  background: var(--red);
+
+  transform: rotate(45deg);
+}
+
+/* Form */
+
+.contact-form-wrapper {
+  margin-top: 2rem;
+}
+
+.contact-field-group {
+  margin-bottom: 1rem;
+}
+
+.contact-field-group label {
+  display: block;
+
+  margin-bottom: 6px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+}
+
+.contact-field-group input,
+.contact-field-group select,
+.contact-field-group textarea {
+  width: 100%;
+
+  padding: 12px 14px;
+
+  border: 1px solid #ddd;
+
+  background: var(--off-white);
+
+  font-size: 14px;
+  font-family: inherit;
+
+  outline: none;
+
+  transition: border-color 0.3s ease;
+}
+
+.contact-field-group input:focus,
+.contact-field-group select:focus,
+.contact-field-group textarea:focus {
+  border-color: var(--red);
+}
+
+.contact-field-group textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-submit-btn {
+  width: 100%;
+
+  border: none;
+
+  padding: 14px;
+
+  background: var(--red);
+  color: var(--white);
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: background 0.3s ease;
+}
+
+.contact-submit-btn:hover {
+  background: var(--red-dark);
+}
+
+/* Contact Details */
+
+.contact-center-block {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-center-badge {
+  display: inline-block;
+
+  margin-bottom: 1rem;
+
+  background: var(--red);
+  color: var(--white);
+
+  padding: 4px 14px;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.contact-address {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--text-muted);
+}
+
+.contact-address strong {
+  color: var(--black);
+}
+
+.contact-address a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.contact-address a:hover {
+  text-decoration: underline;
+}
+
+/* Social */
+
+.contact-social-wrapper p {
+  margin-bottom: 0.75rem;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+}
+
+.contact-social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-social-btn {
+  display: inline-block;
+
+  padding: 10px 24px;
+
+  border: 2px solid var(--black);
+
+  background: transparent;
+  color: var(--black);
+
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+.contact-social-btn:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-info-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .contact-section-header h2 {
+    font-size: 28px;
+  }
+
+  .contact-hindi {
+    font-size: 18px;
+  }
+}

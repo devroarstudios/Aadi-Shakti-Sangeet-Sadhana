@@ -1,0 +1,253 @@
+/* ============================================================
+   FOUNDER STORY — src/styles/founderstory.css
+   Exact conversion of the Founder section from about.html.
+   All inline styles extracted. All shared classes reproduced.
+   ============================================================ */
+
+/* ── SECTION WRAPPER ─────────────────────────────────────── */
+/* Converts: style="padding: 5rem 2rem; background: var(--white);" */
+.fs-section {
+  padding: 5rem 2rem;
+  background: #ffffff;
+}
+
+/* Converts: style="max-width: 1300px; margin: 0 auto;" */
+.fs-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ── SECTION HEADER ──────────────────────────────────────── */
+/* Reproduced from style.css — used as-is in the original HTML */
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.fs-card {
+  padding: 2.8rem 2.2rem;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.35s;
+}
+
+/* RED STRIPE */
+.fs-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  background: #C8102E;
+
+  transition: height 0.4s;
+}
+
+.fs-card:hover::before {
+  height: 100%;
+}
+
+.fs-card:hover {
+  background: #f5f0e8;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C8102E;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.section-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #0f0f0f;
+  line-height: 1.15;
+}
+
+.section-header .hindi {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 22px;
+  color: #C8102E;
+  display: block;
+  margin-top: 6px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.divider span {
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #C8102E;
+}
+
+.divider .dia {
+  width: 8px;
+  height: 8px;
+  background: #C8102E;
+  transform: rotate(45deg);
+}
+
+/* ── GRID ────────────────────────────────────────────────── */
+/* Converts: class="courses-grid" style="grid-template-columns: 1fr 1fr;" */
+/* Reproduced from .courses-grid in style.css, column override applied */
+.fs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: #C8102E;
+  border: 2px solid #C8102E;
+}
+
+/* ── CARDS ───────────────────────────────────────────────── */
+/* Base: class="course-card" style="padding: 2.8rem 2.2rem; cursor: default;" */
+/* Reproduced from .course-card in style.css, with inline overrides applied */
+.fs-card {
+  padding: 2.8rem 2.2rem;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.35s;
+}
+
+/* Left card — white background (default course-card bg) */
+.fs-card--white {
+  background: #ffffff;
+}
+
+/* Right card — style="background: var(--cream);" */
+.fs-card--cream {
+  background: #f5f0e8;
+}
+
+/* ── CARD TITLE ──────────────────────────────────────────── */
+/* style="font-size:22px; margin-bottom:6px;" + .course-card h3 base */
+.fs-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f0f0f;
+  margin-bottom: 6px;
+}
+
+/* ── HINDI LABEL ─────────────────────────────────────────── */
+/* Reproduced from .hindi-label in style.css */
+.hindi-label {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 13px;
+  color: #C8102E;
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* ── CARD BODY TEXT ──────────────────────────────────────── */
+/* style="font-family:'Cormorant Garamond',serif; font-size:16px;
+         line-height:1.9; color:var(--text-muted);" */
+.fs-card-body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #5a4a4a;
+  margin-bottom: 0;
+}
+
+/* style="margin-bottom:1rem;" applied to first paragraph only */
+.fs-card-body--mb {
+  margin-bottom: 1rem;
+}
+
+/* ── STRONG INSIDE BODY ──────────────────────────────────── */
+/* style="color:var(--black);" */
+.fs-strong {
+  color: #0f0f0f;
+}
+
+/* ── QUOTE BLOCK ─────────────────────────────────────────── */
+/* style="border-left: 4px solid var(--red); padding: 1rem 1.2rem;
+         background: var(--white); margin-top:1rem;" */
+.fs-quote-block {
+  border-left: 4px solid #C8102E;
+  padding: 1rem 1.2rem;
+  background: #ffffff;
+  margin-top: 1rem;
+}
+
+/* Quote text paragraph */
+/* style="font-family:'Cormorant Garamond',serif; font-size:17px;
+         font-style:italic; line-height:1.7; color:var(--black); margin:0;" */
+.fs-quote-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.7;
+  color: #0f0f0f;
+  margin: 0;
+}
+
+/* Quote attribution span */
+/* style="display:block; margin-top:8px; font-size:11px; font-weight:700;
+         letter-spacing:1.5px; text-transform:uppercase; color:var(--red);" */
+.fs-quote-attr {
+  display: block;
+  margin-top: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #C8102E;
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────────── */
+
+/* 900px — single column, matches style.css .courses-grid.cols-2 at 900px */
+@media (max-width: 900px) {
+  .fs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+  }
+}
+
+/* 600px — mobile */
+@media (max-width: 600px) {
+  .fs-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .fs-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .fs-card-title {
+    font-size: 20px;
+  }
+
+  .fs-card-body {
+    font-size: 15px;
+  }
+
+  .fs-quote-text {
+    font-size: 15px;
+  }
+
+  .section-header h2 {
+    font-size: 26px;
+  }
+}

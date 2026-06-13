@@ -1,0 +1,135 @@
+/* SECTION HEADER */
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C8102E;
+  margin-bottom: 8px;
+  display: block;
+}
+.section-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #0f0f0f;
+  line-height: 1.15;
+}
+.section-header .hindi {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 22px;
+  color: #C8102E;
+  display: block;
+  margin-top: 6px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.divider span {
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #C8102E;
+}
+.divider .dia {
+  width: 8px;
+  height: 8px;
+  background: #C8102E;
+  transform: rotate(45deg);
+}
+
+/* COURSES */
+.courses-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.simple-title {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: #C8102E;
+  border: 2px solid #C8102E;
+}
+.course-card {
+  background: #ffffff;
+  padding: 2.2rem 1.8rem;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.35s;
+  cursor: pointer;
+}
+.course-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: #C8102E;
+  transition: height 0.4s;
+}
+.course-card:hover {
+  background: #f5f0e8;
+}
+.course-card:hover::before {
+  height: 100%;
+}
+.course-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f0f0f;
+  margin-bottom: 4px;
+}
+.hindi-label {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 13px;
+  color: #C8102E;
+  margin-bottom: 12px;
+  display: block;
+}
+.course-card p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #5a4a4a;
+  margin-bottom: 16px;
+}
+.course-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border: 1px solid #C8102E;
+  color: #C8102E;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+}

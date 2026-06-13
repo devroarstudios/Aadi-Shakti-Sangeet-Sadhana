@@ -1,0 +1,50 @@
+/* ==========================================================
+   ABOUT PAGE
+   ========================================================== */
+
+/* HERO PAGE LABEL */
+
+.about-breadcrumb {
+  display: inline-block;
+  margin-bottom: 10px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: rgba(255,255,255,0.8);
+}
+
+/* Optional smaller spacing for About page hero */
+
+.about-strip.about-page {
+  min-height: 520px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Optional larger stats on About page */
+
+.about-page .stat-box .num {
+  font-size: 58px;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+  .about-breadcrumb {
+    letter-spacing: 3px;
+    font-size: 10px;
+  }
+
+  .about-page {
+    min-height: auto;
+  }
+
+  .about-page .stat-box .num {
+    font-size: 42px;
+  }
+}

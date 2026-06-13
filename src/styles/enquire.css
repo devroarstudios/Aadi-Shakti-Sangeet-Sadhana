@@ -1,0 +1,155 @@
+/* ============================================================
+   ENQUIRE CTA
+   Extracted from about.html + style.css
+   ============================================================ */
+
+.enquire-section {
+  padding: 5rem 2rem;
+  background: #0f0f0f;
+  color: #ffffff;
+  text-align: center;
+}
+
+.enquire-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.enquire-section .eyebrow {
+  color: #C8102E;
+}
+
+.enquire-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.enquire-hindi {
+  display: block;
+
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 20px;
+
+  color: #e8c96e;
+
+  margin-bottom: 2rem;
+}
+
+.enquire-copy {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  line-height: 1.8;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  margin-bottom: 2.5rem;
+
+  font-style: italic;
+}
+
+.enquire-buttons {
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Uses existing button styles from style.css */
+.btn-outline-white {
+  display: inline-block;
+
+  background: transparent;
+  color: #ffffff;
+
+  padding: 13px 36px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border: 2px solid #ffffff;
+
+  transition: all 0.3s;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-red {
+  display: inline-block;
+  background: #C8102E;
+  color: #fff;
+
+  padding: 13px 36px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+
+  text-transform: uppercase;
+
+  border: 2px solid #C8102E;
+
+  cursor: pointer;
+
+  font-family: 'Raleway', sans-serif;
+
+  text-decoration: none;
+
+  transition: all 0.3s;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.btn-red:hover {
+  background: #9B0A22;
+  border-color: #9B0A22;
+}
+
+.btn-outline-white:hover {
+  background: #ffffff;
+  color: #0f0f0f;
+}
+
+@media (max-width: 900px) {
+  .enquire-section h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 600px) {
+  .enquire-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .enquire-section h2 {
+    font-size: 28px;
+  }
+
+  .enquire-hindi {
+    font-size: 18px;
+  }
+
+  .enquire-copy {
+    font-size: 15px;
+  }
+
+  .enquire-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .enquire-buttons a,
+  .enquire-buttons button {
+    width: 100%;
+    max-width: 280px;
+  }
+}

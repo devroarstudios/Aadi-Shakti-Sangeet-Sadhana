@@ -1,0 +1,224 @@
+/* ABOUT STRIP */
+.about-strip {
+  background: #C8102E;
+  color: #ffffff;
+  padding: 5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-strip::after{
+  content:'';
+
+  position:absolute;
+
+  width:900px;
+  height:900px;
+
+  left:50%;
+  top:50%;
+
+  transform:translate(-50%,-50%);
+
+  background:
+  radial-gradient(
+      circle,
+      rgba(255,255,255,.08) 0%,
+      rgba(255,255,255,.04) 35%,
+      transparent 70%
+  );
+
+  pointer-events:none;
+}
+
+.about-strip::before {
+  content: 'आदि शक्ति';
+  font-family: 'Tiro Devanagari Hindi', serif;
+  position: absolute;
+  font-size: 170px;
+  opacity: 0.15;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.about-strip .btn-learn{
+  border:1px solid rgba(255,255,255,.8);
+}
+
+.about-strip .btn-learn:hover{
+  background:#ffffff;
+  color:#C8102E;
+  border-color:#ffffff;
+}
+
+.about-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.about-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+.about-text .hindi-h {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 24px;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+.about-text .hindi-h::after{
+  content:'';
+  display:block;
+
+  width:90px;
+  height:2px;
+
+  background:#f7d78c;
+
+  margin-top:16px;
+}
+.about-text p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  line-height: 1.9;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+.about-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.stat-box {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 1.8rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.07);
+}
+.stat-box .num {
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow:
+  0 4px 20px rgba(0,0,0,.2);
+}
+.stat-box .lbl {
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-top: 6px;
+}
+
+.mobile-btn{
+  display:none;
+}
+
+@media (max-width: 900px) {
+
+  .about-strip{
+    padding:60px 24px;
+  }
+
+  .about-inner{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+  }
+
+  .about-text h2{
+    font-size:40px;
+    line-height:1.08;
+    margin-bottom:16px;
+  }
+
+  .about-text .hindi-h{
+    font-size:20px;
+    line-height:1.4;
+    margin-bottom:18px;
+  }
+
+  .about-text p{
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:16px;
+  }
+
+  .about-text .btn-learn{
+    display:none;
+  }
+
+  .about-stats{
+    order:2;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+  }
+
+  .stat-box{
+    padding:20px 12px;
+  }
+
+  .stat-box .num{
+    font-size:38px;
+  }
+
+  .stat-box .lbl{
+    font-size:10px;
+    letter-spacing:1.5px;
+  }
+
+  .mobile-btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  order:3;
+  width:170px;
+  height:48px;
+  margin:0 auto;
+  border:1px solid rgba(255,255,255,.8);
+  background:transparent;
+  color:#ffffff;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:all .35s ease;
+}
+
+.mobile-btn:hover{
+  background:#ffffff;
+  color:#C8102E;
+  border-color:#ffffff;
+  transform:translateY(-2px);
+  box-shadow:
+    0 10px 25px rgba(0,0,0,.15);
+}
+
+  .about-strip::before{
+    font-size:90px;
+    opacity:.05;
+  }
+
+  .about-strip::after{
+    width:500px;
+    height:500px;
+  }
+}

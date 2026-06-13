@@ -1,0 +1,271 @@
+/* SLIDER */
+.slider-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+.slide-bg-color {
+  width: 100%;
+  height: 100%;
+}
+.s1 {
+  background: url('https://res.cloudinary.com/dcaiszxcb/image/upload/q_auto/f_auto/v1780742578/kidsdance_ewm7xy.png') center / cover no-repeat;
+}
+.s2 {
+  background: url('https://res.cloudinary.com/dcaiszxcb/image/upload/q_auto/f_auto/v1780742561/ladiesdanceclass_iyndlt.jpg') center / cover no-repeat;
+}
+.s3 {
+  background: url('https://res.cloudinary.com/dcaiszxcb/image/upload/q_auto/f_auto/v1780742560/kidsvocal_mdpvvr.jpg') center / cover no-repeat;
+}
+.s4 {
+  background: url('https://res.cloudinary.com/dcaiszxcb/image/upload/q_auto/f_auto/v1780742555/adultvocal_xlmcxl.jpg') center / cover no-repeat;
+}
+.slide-emoji {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200px;
+  opacity: 0.08;
+  pointer-events: none;
+}
+.slide-content{
+  position:absolute;
+  inset:0;
+
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+
+  padding:2.5rem 4rem;
+
+  background:
+  linear-gradient(
+      to top,
+      rgba(0,0,0,.82) 0%,
+      rgba(0,0,0,.55) 30%,
+      rgba(0,0,0,.15) 60%,
+      transparent 100%
+  );
+
+  z-index:3;
+}
+
+.slide-left {
+  max-width: 55%;
+}
+.slide-tag {
+  display: inline-block;
+  background: #C8102E;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+.slide-title {
+  font-family: 'Playfair Display', serif;
+  font-size:64px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 8px;
+  text-shadow:
+  0 4px 20px rgba(0,0,0,.4);
+}
+.slide-hindi {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 20px;
+  color:#f6d483;
+  letter-spacing:1px;
+  font-style: italic;
+}
+.slide-right {
+  max-width: 36%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+.slide-copy {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color:#ffffff;
+  text-shadow:0 2px 10px rgba(0,0,0,.5);
+  font-style: italic;
+}
+.btn-learn {
+  display: inline-block;
+  border:1px solid #fff;
+  color: #ffffff;
+  padding:14px 38px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: transparent;
+  font-family: 'Raleway', sans-serif;
+}
+.btn-learn:hover {
+  background: #C8102E;
+  transform:translateY(-2px);
+  border-color: #C8102E;
+}
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+}
+.dot.active {
+  background: #C8102E;
+  transform: scale(1.35);
+}
+.slider-arrow{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  z-index:10;
+  width:58px;
+  height:58px;
+  border:2px solid rgba(255,255,255,.9);
+  background:transparent;
+  color:#fff;
+  border-radius:50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  font-size:24px;
+  font-weight:600;
+  transition:all .35s ease;
+}
+
+.slider-arrow.prev{
+  left:25px;
+}
+
+.slider-arrow.next{
+  right:25px;
+}
+
+.slider-arrow:hover{
+  background:#C8102E;
+  border-color:#C8102E;
+  transform:translateY(-50%) scale(1.08);
+  box-shadow: 0 10px 25px rgba(200,16,46,.35);
+}
+
+@keyframes heroZoom{
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.06);
+  }
+}
+
+@media (max-width:768px){
+
+  .slider-section{
+    height:80vh;
+  }
+
+  .slide-content{
+    padding:20px;
+    padding-bottom:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .slide-tag{
+    display:none;
+  }
+
+  .slide-hindi{
+    display:none;
+  }
+
+  .slide-left{
+    max-width:100%;
+  }
+
+  .slide-right{
+    max-width:100%;
+    text-align:left;
+    align-items:flex-start;
+  }
+
+  .slide-title{
+    font-size:28px;
+    line-height:1.05;
+    margin-bottom:0;
+  }
+
+  .slide-copy{
+    font-size:12px;
+    line-height:1.5;
+    max-width:280px;
+    margin:0;
+  }
+
+  .btn-learn{
+    padding:8px 16px;
+    font-size:9px;
+    letter-spacing:1.5px;
+  }
+
+  .slider-arrow{
+    width:38px;
+    height:38px;
+    font-size:16px;
+  }
+
+  .slider-arrow.prev{
+    left:12px;
+  }
+
+  .slider-arrow.next{
+    right:12px;
+  }
+
+  .slider-dots{
+    bottom:14px;
+  }
+}

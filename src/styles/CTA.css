@@ -1,0 +1,170 @@
+/* ==================================================
+   COURSES CTA
+================================================== */
+
+.cta-section {
+  padding: 5rem 2rem;
+
+  background: #0f0f0f;
+  color: #ffffff;
+
+  text-align: center;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 3px solid #C8102E;
+}
+
+.cta-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* EYEBROW */
+
+.cta-eyebrow {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: #C8102E;
+}
+
+/* TITLE */
+
+.cta-title {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 900;
+
+  color: #ffffff;
+
+  margin-bottom: 6px;
+
+  line-height: 1.15;
+}
+
+/* HINDI */
+
+.cta-hindi {
+  display: block;
+
+  margin-bottom: 2rem;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 20px;
+
+  color: #d4af37;
+}
+
+/* DESCRIPTION */
+
+.cta-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  line-height: 1.8;
+
+  font-style: italic;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  margin-bottom: 2.5rem;
+}
+
+/* BUTTONS */
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* RED BUTTON */
+
+.cta-btn-red {
+  display: inline-block;
+
+  background: #C8102E;
+  color: #ffffff;
+
+  padding: 13px 36px;
+
+  text-decoration: none;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+.cta-btn-red:hover {
+  background: #a30d26;
+}
+
+/* OUTLINE BUTTON */
+
+.cta-btn-outline {
+  display: inline-block;
+
+  background: transparent;
+  color: #ffffff;
+
+  padding: 13px 36px;
+
+  text-decoration: none;
+
+  border: 2px solid #ffffff;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+.cta-btn-outline:hover {
+  background: #ffffff;
+  color: #0f0f0f;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 34px;
+  }
+
+  .cta-hindi {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .cta-title {
+    font-size: 28px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-btn-red,
+  .cta-btn-outline {
+    width: 100%;
+  }
+}

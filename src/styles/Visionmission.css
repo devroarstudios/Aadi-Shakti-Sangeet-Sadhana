@@ -1,0 +1,126 @@
+/* ============================================================
+   VISION & MISSION — src/styles/visionmission.css
+   Extracted from about.html
+   ============================================================ */
+
+/* SECTION */
+.vm-section {
+  padding: 5rem 2rem;
+  background: #f5f0e8;
+}
+
+.vm-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* GRID */
+.vm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: #C8102E;
+  border: 2px solid #C8102E;
+}
+
+/* CARD */
+.vm-card {
+  background: #ffffff;
+  padding: 2.2rem 1.8rem;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  transition: background 0.35s;
+}
+
+/* RED STRIPE ANIMATION
+   Same as original course-card */
+.vm-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  background: #C8102E;
+  transition: height 0.4s ease;
+}
+
+.vm-card:hover {
+  background: #f5f0e8;
+}
+
+.vm-card:hover::before {
+  height: 100%;
+}
+
+/* TITLE */
+.vm-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f0f0f;
+  margin-bottom: 4px;
+}
+
+/* HINDI LABEL */
+.vm-hindi-label {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 13px;
+  color: #C8102E;
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* BODY TEXT */
+.vm-card p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #5a4a4a;
+  margin-bottom: 16px;
+}
+
+/* TAGS */
+.vm-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vm-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border: 1px solid #C8102E;
+  color: #C8102E;
+  text-transform: uppercase;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .vm-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .vm-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .vm-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .vm-card h3 {
+    font-size: 18px;
+  }
+
+  .vm-card p {
+    font-size: 15px;
+  }
+}

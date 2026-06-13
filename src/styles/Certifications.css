@@ -1,0 +1,219 @@
+/* ==========================================
+   CERTIFICATIONS & AWARDS
+========================================== */
+
+.cert-section {
+  background: var(--red);
+  color: var(--white);
+
+  padding: 5rem 2rem;
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background watermark */
+.cert-section::before {
+  content: "आदि शक्ति";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 170px;
+
+  opacity: 0.08;
+
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.cert-section::after {
+  content: "";
+
+  position: absolute;
+
+  width: 900px;
+  height: 900px;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  background: radial-gradient(
+    circle,
+    rgba(255,255,255,0.08) 0%,
+    rgba(255,255,255,0.04) 35%,
+    transparent 70%
+  );
+
+  pointer-events: none;
+}
+
+.cert-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  position: relative;
+  z-index: 2;
+}
+
+/* Content */
+
+.cert-content {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cert-eyebrow {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: rgba(255,255,255,0.7);
+}
+
+.cert-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 900;
+
+  line-height: 1.15;
+  margin-bottom: 8px;
+
+  color: var(--white);
+}
+
+.cert-hindi {
+  display: block;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+
+  color: rgba(255,255,255,0.8);
+
+  margin-bottom: 1.5rem;
+}
+
+.cert-hindi::after {
+  content: "";
+
+  display: block;
+
+  width: 90px;
+  height: 2px;
+
+  margin: 16px auto 0;
+
+  background: rgba(255,255,255,0.4);
+}
+
+.cert-content p {
+  max-width: 900px;
+
+  margin: 0 auto 1rem;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  line-height: 1.9;
+
+  color: rgba(255,255,255,0.9);
+}
+
+/* Stats Grid */
+
+.cert-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1.5rem;
+}
+
+/* Stat Box */
+
+.cert-box {
+  border: 1px solid rgba(255,255,255,0.25);
+
+  background: rgba(255,255,255,0.07);
+
+  padding: 1.8rem;
+
+  text-align: center;
+}
+
+.cert-num {
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+  font-weight: 900;
+
+  line-height: 1;
+
+  text-shadow:
+    0 4px 20px rgba(0,0,0,0.2);
+}
+
+.cert-lbl {
+  margin-top: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: rgba(255,255,255,0.8);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+
+  .cert-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cert-content h2 {
+    font-size: 34px;
+  }
+
+  .cert-hindi {
+    font-size: 20px;
+  }
+
+  .cert-section::before {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .cert-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .cert-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-content h2 {
+    font-size: 28px;
+  }
+
+  .cert-content p {
+    font-size: 15px;
+  }
+
+  .cert-num {
+    font-size: 40px;
+  }
+}

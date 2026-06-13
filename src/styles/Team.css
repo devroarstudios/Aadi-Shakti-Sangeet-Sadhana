@@ -1,0 +1,70 @@
+/* TEAM */
+.team-section {
+  padding: 5rem 2rem;
+  background: #ffffff;
+}
+.team-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+.team-card {
+  background: #faf8f5;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.team-card:hover {
+  border-color: #C8102E;
+  transform: translateY(-4px);
+}
+.team-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #C8102E;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0 0 0 3px #f5f0e8, 0 0 0 5px #C8102E;
+}
+.team-avatar img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.team-card h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.team-card .role {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C8102E;
+  margin-bottom: 10px;
+}
+.team-card p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  color: #5a4a4a;
+  line-height: 1.6;
+  font-style: italic;
+}

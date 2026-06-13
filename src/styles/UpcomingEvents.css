@@ -1,0 +1,203 @@
+/* ==========================================
+   UPCOMING EVENTS
+========================================== */
+
+.upcoming-section {
+  padding: 5rem 2rem;
+  background: var(--cream);
+}
+
+.upcoming-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.upcoming-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.upcoming-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: var(--red);
+}
+
+.upcoming-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 900;
+
+  color: var(--black);
+}
+
+.upcoming-hindi {
+  display: block;
+  margin-top: 6px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+
+  color: var(--red);
+}
+
+.upcoming-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.upcoming-divider span {
+  width: 60px;
+  height: 1px;
+  background: var(--red);
+}
+
+.upcoming-dia {
+  width: 8px;
+  height: 8px;
+
+  background: var(--red);
+  transform: rotate(45deg);
+}
+
+.upcoming-note {
+  text-align: center;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+  font-style: italic;
+
+  color: var(--text-muted);
+
+  margin-bottom: 3rem;
+}
+
+/* Grid */
+
+.upcoming-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2px;
+
+  background: var(--red);
+  border: 2px solid var(--red);
+}
+
+/* Card */
+
+.upcoming-card {
+  background: var(--white);
+
+  padding: 2.2rem 1.8rem;
+
+  position: relative;
+  overflow: hidden;
+
+  cursor: default;
+}
+
+.upcoming-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  background: var(--red);
+
+  transition: height 0.4s ease;
+}
+
+.upcoming-card:hover::before {
+  height: 100%;
+}
+
+.upcoming-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  color: var(--black);
+
+  margin-bottom: 4px;
+}
+
+.upcoming-hindi-label {
+  display: block;
+
+  margin-bottom: 12px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 13px;
+
+  color: var(--red);
+}
+
+.upcoming-card p {
+  font-size: 13px;
+  line-height: 1.7;
+
+  color: var(--text-muted);
+
+  margin-bottom: 16px;
+}
+
+.upcoming-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.upcoming-tag {
+  padding: 3px 10px;
+
+  border: 1px solid var(--red);
+
+  color: var(--red);
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .upcoming-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .upcoming-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .upcoming-header h2 {
+    font-size: 28px;
+  }
+
+  .upcoming-hindi {
+    font-size: 18px;
+  }
+}

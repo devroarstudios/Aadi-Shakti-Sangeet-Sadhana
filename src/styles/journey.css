@@ -1,0 +1,137 @@
+/* ============================================================
+   JOURNEY SECTION
+   Extracted from about.html
+   Based on centers-grid styles
+   ============================================================ */
+
+.journey-section {
+  padding: 5rem 2rem;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+
+.journey-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Override heading color */
+.journey-title {
+  color: #ffffff !important;
+}
+
+.journey-eyebrow {
+  color: #C8102E !important;
+}
+
+/* GRID */
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2px;
+
+  background: #C8102E;
+  border: 2px solid #C8102E;
+
+  margin-top: 3rem;
+}
+
+/* CARD */
+
+.journey-card {
+  background: #0f0f0f;
+  padding: 2.5rem;
+}
+
+/* BADGE */
+
+.journey-badge {
+  display: inline-block;
+
+  background: #C8102E;
+  color: #ffffff;
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  padding: 4px 14px;
+
+  margin-bottom: 1.2rem;
+}
+
+/* TITLE */
+
+.journey-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #ffffff;
+
+  margin-bottom: 1.2rem;
+}
+
+/* INFO */
+
+.journey-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.journey-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  font-size: 14px;
+  line-height: 1.65;
+
+  color: rgba(255,255,255,0.78);
+}
+
+.journey-icon {
+  color: #C8102E;
+
+  font-size: 17px;
+
+  margin-top: 1px;
+
+  flex-shrink: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+  .journey-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .journey-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .journey-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .journey-card {
+    padding: 2rem;
+  }
+
+  .journey-card h3 {
+    font-size: 18px;
+  }
+
+  .journey-row {
+    font-size: 13px;
+  }
+}

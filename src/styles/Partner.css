@@ -1,0 +1,203 @@
+/* ==========================================
+   PARTNER SECTION
+========================================== */
+
+.partner-section {
+  padding: 5rem 2rem;
+  background: var(--cream);
+}
+
+.partner-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.partner-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+/* LEFT CONTENT */
+
+.partner-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.partner-eyebrow {
+  display: block;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: var(--red);
+
+  margin-bottom: 10px;
+}
+
+.partner-hindi {
+  display: block;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 24px;
+
+  color: var(--red);
+
+  margin-bottom: 1.5rem;
+}
+
+.partner-content p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  line-height: 1.9;
+
+  color: var(--text-muted);
+
+  margin-bottom: 1rem;
+}
+
+/* BUTTONS */
+
+.partner-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  margin-top: 1.5rem;
+}
+
+.partner-btn-red {
+  display: inline-block;
+
+  background: var(--red);
+  color: var(--white);
+
+  padding: 13px 36px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  border: 2px solid var(--red);
+
+  transition: all 0.3s;
+}
+
+.partner-btn-red:hover {
+  background: var(--red-dark);
+  border-color: var(--red-dark);
+}
+
+.partner-btn-outline {
+  display: inline-block;
+
+  background: transparent;
+  color: var(--black);
+
+  padding: 13px 36px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  border: 2px solid var(--black);
+
+  transition: all 0.3s;
+}
+
+.partner-btn-outline:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+/* RIGHT GRID */
+
+.partner-benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.partner-card {
+  background: var(--white);
+
+  padding: 1.8rem;
+
+  border-left: 4px solid var(--red);
+
+  transition: transform 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+}
+
+.partner-card-title {
+  font-family: "Playfair Display", serif;
+
+  font-size: 22px;
+  font-weight: 700;
+
+  color: var(--black);
+
+  margin-bottom: 12px;
+}
+
+.partner-card-text {
+  font-size: 14px;
+  line-height: 1.8;
+
+  color: var(--text-muted);
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 900px) {
+  .partner-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-content h2 {
+    font-size: 32px;
+  }
+
+  .partner-hindi {
+    font-size: 20px;
+  }
+
+  .partner-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-buttons {
+    flex-direction: column;
+  }
+
+  .partner-btn-red,
+  .partner-btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+}

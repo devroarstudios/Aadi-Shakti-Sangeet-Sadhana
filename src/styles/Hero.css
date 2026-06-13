@@ -1,0 +1,125 @@
+/* ==================================================
+   COURSE HERO
+   Extracted from about-strip section
+================================================== */
+
+.course-hero {
+  background: #C8102E;
+  color: #ffffff;
+  padding: 5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.course-hero::before {
+  content: "आदि शक्ति";
+  font-family: 'Tiro Devanagari Hindi', serif;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  font-size: 170px;
+  opacity: 0.06;
+
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.course-hero-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  position: relative;
+  z-index: 1;
+}
+
+.course-hero-content {
+  text-align: center;
+}
+
+.course-breadcrumb {
+  display: block;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  opacity: 0.65;
+
+  margin-bottom: 8px;
+}
+
+.course-hero h1 {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 42px;
+  font-weight: 900;
+
+  line-height: 1.15;
+
+  margin-bottom: 1rem;
+}
+
+.course-hindi {
+  display: block;
+
+  font-family: 'Tiro Devanagari Hindi', serif;
+
+  font-size: 24px;
+
+  opacity: 0.85;
+
+  margin-bottom: 1.5rem;
+}
+
+.course-hero p {
+  max-width: 900px;
+  margin: 0 auto;
+
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 17px;
+  line-height: 1.9;
+
+  opacity: 0.9;
+}
+
+/* ===============================
+   Responsive
+================================ */
+
+@media (max-width: 900px) {
+
+  .course-hero h1 {
+    font-size: 32px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .course-hero {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .course-hero::before {
+    font-size: 90px;
+  }
+
+  .course-hero h1 {
+    font-size: 24px;
+  }
+
+  .course-hindi {
+    font-size: 18px;
+  }
+
+  .course-hero p {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,193 @@
+/* ==========================================
+   UPDATED CTA
+========================================== */
+
+.updated-cta {
+  padding: 5rem 2rem;
+
+  background: var(--black);
+  color: var(--white);
+
+  text-align: center;
+
+  border-top: 2px solid var(--red);
+}
+
+.updated-cta-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ==========================================
+   EYEBROW
+========================================== */
+
+.updated-cta-eyebrow {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: var(--red);
+}
+
+/* ==========================================
+   HEADING
+========================================== */
+
+.updated-cta h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 900;
+
+  color: var(--white);
+
+  margin-bottom: 6px;
+}
+
+/* ==========================================
+   HINDI
+========================================== */
+
+.updated-cta-hindi {
+  display: block;
+
+  margin-bottom: 2rem;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 20px;
+
+  color: var(--gold-light);
+}
+
+/* ==========================================
+   DESCRIPTION
+========================================== */
+
+.updated-cta p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 17px;
+  line-height: 1.8;
+  font-style: italic;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  margin-bottom: 2.5rem;
+}
+
+/* ==========================================
+   BUTTON WRAPPER
+========================================== */
+
+.updated-cta-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+/* ==========================================
+   INSTAGRAM BUTTON
+========================================== */
+
+.updated-cta-btn-red {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 280px;
+  height: 50px;
+
+  background: var(--red);
+  color: var(--white);
+
+  border: 2px solid var(--red);
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.updated-cta-btn-red:hover {
+  background: transparent;
+  color: var(--white);
+}
+
+/* ==========================================
+   YOUTUBE BUTTON
+========================================== */
+
+.updated-cta-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 280px;
+  height: 50px;
+
+  background: transparent;
+  color: var(--white);
+
+  border: 2px solid var(--white);
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.updated-cta-btn-outline:hover {
+  background: var(--white);
+  color: var(--red);
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 768px) {
+  .updated-cta {
+    padding: 4rem 1.5rem;
+  }
+
+  .updated-cta h2 {
+    font-size: 30px;
+  }
+
+  .updated-cta-hindi {
+    font-size: 18px;
+  }
+
+  .updated-cta p {
+    font-size: 15px;
+  }
+
+  .updated-cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .updated-cta-btn-red,
+  .updated-cta-btn-outline {
+    width: 100%;
+    max-width: 320px;
+  }
+}

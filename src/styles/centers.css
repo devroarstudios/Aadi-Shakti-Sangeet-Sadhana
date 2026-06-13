@@ -1,0 +1,133 @@
+/* CENTERS */
+.centers-section {
+  padding: 5rem 2rem;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+.centers-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.centers-header h2 {
+  color: #ffffff;
+}
+/* ==========================================
+   SECTION HEADER
+========================================== */
+
+.centers-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.centers-eyebrow {
+  display: block;
+
+  color: #C8102E;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.centers-title h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 700;
+
+  color: #ffffff;
+
+  margin-bottom: 8px;
+}
+
+.centers-hindi {
+  display: block;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 24px;
+
+  color: #e8c96e;
+
+  margin-bottom: 1.5rem;
+}
+
+.centers-title .divider {
+  justify-content: center;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .centers-title h2 {
+    font-size: 38px;
+  }
+
+  .centers-hindi {
+    font-size: 20px;
+  }
+}
+.centers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: #C8102E;
+  border: 2px solid #C8102E;
+  margin-top: 3rem;
+}
+.center-card {
+  background: #0f0f0f;
+  padding: 2.5rem;
+}
+.center-badge {
+  display: inline-block;
+  background: #C8102E;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  margin-bottom: 1.2rem;
+}
+.center-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+.center-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.center-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.78);
+}
+.center-row .ci {
+  color: #C8102E;
+  font-size: 17px;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+.center-row a {
+  color: #e8c96e;
+  text-decoration: none;
+}
+.center-row a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .centers-grid {
+    grid-template-columns: 1fr;
+  }
+}

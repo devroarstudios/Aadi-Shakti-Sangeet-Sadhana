@@ -1,0 +1,198 @@
+/* ==========================================
+   PAST HIGHLIGHTS
+========================================== */
+
+.past-section {
+  padding: 5rem 2rem;
+  background: var(--black);
+  color: var(--white);
+}
+
+.past-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.past-header {
+  text-align: center;
+}
+
+.past-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: var(--red);
+}
+
+.past-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 900;
+
+  color: var(--white);
+}
+
+.past-hindi {
+  display: block;
+  margin-top: 6px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+
+  color: var(--red);
+}
+
+.past-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.past-divider span {
+  width: 60px;
+  height: 1px;
+  background: var(--red);
+}
+
+.past-dia {
+  width: 8px;
+  height: 8px;
+
+  background: var(--red);
+  transform: rotate(45deg);
+}
+
+/* Grid */
+
+.past-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2px;
+
+  margin-top: 3rem;
+
+  background: var(--red);
+  border: 2px solid var(--red);
+}
+
+/* Cards */
+
+.past-card {
+  background: var(--black);
+
+  padding: 2rem;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.past-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  background: var(--red);
+
+  transition: height 0.4s ease;
+}
+
+.past-card:hover::before {
+  height: 100%;
+}
+
+.past-badge {
+  display: inline-block;
+
+  margin-bottom: 1rem;
+
+  padding: 6px 12px;
+
+  background: rgba(200, 16, 46, 0.15);
+
+  border: 1px solid rgba(200, 16, 46, 0.4);
+
+  color: var(--red);
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.past-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  color: var(--white);
+
+  margin-bottom: 1rem;
+}
+
+.past-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.past-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  font-size: 14px;
+  line-height: 1.8;
+
+  color: rgba(255,255,255,0.8);
+}
+
+.past-icon {
+  color: var(--red);
+  flex-shrink: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .past-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .past-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .past-header h2 {
+    font-size: 28px;
+  }
+
+  .past-hindi {
+    font-size: 18px;
+  }
+
+  .past-card {
+    padding: 1.5rem;
+  }
+}

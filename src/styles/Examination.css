@@ -1,0 +1,196 @@
+/* ==========================================
+   EXAMINATION SYSTEM
+========================================== */
+
+.exam-section {
+  padding: 5rem 2rem;
+  background: var(--cream);
+}
+
+.exam-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.exam-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.exam-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  color: var(--red);
+}
+
+.exam-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 900;
+
+  color: var(--black);
+  line-height: 1.15;
+}
+
+.exam-hindi {
+  display: block;
+  margin-top: 6px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+
+  color: var(--red);
+}
+
+.exam-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.exam-divider span {
+  width: 60px;
+  height: 1px;
+
+  background: var(--red);
+}
+
+.exam-dia {
+  width: 8px;
+  height: 8px;
+
+  background: var(--red);
+  transform: rotate(45deg);
+}
+
+/* Grid */
+
+.exam-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2px;
+
+  background: var(--red);
+  border: 2px solid var(--red);
+}
+
+/* Card */
+
+.exam-card {
+  background: var(--white);
+
+  padding: 2.2rem 1.8rem;
+
+  position: relative;
+  overflow: hidden;
+
+  cursor: default;
+}
+
+/* Red Stripe Animation */
+
+.exam-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  background: var(--red);
+
+  transition: height 0.4s ease;
+}
+
+.exam-card:hover::before {
+  height: 100%;
+}
+
+.exam-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  color: var(--black);
+
+  margin-bottom: 4px;
+}
+
+.exam-hindi-label {
+  display: block;
+  margin-bottom: 12px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 13px;
+
+  color: var(--red);
+}
+
+.exam-card p {
+  font-size: 13px;
+  line-height: 1.7;
+
+  color: var(--text-muted);
+
+  margin-bottom: 16px;
+}
+
+/* Tags */
+
+.exam-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.exam-tag {
+  padding: 3px 10px;
+
+  border: 1px solid var(--red);
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: var(--red);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .exam-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .exam-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .exam-header h2 {
+    font-size: 28px;
+  }
+
+  .exam-hindi {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,22 @@
+/* TICKER */
+.ticker {
+  background: #C8102E;
+  color: #ffffff;
+  padding: 7px 0;
+  overflow: hidden;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+.ticker-inner {
+  display: flex;
+  animation: ticker 35s linear infinite;
+  white-space: nowrap;
+}
+.ticker-inner span {
+  padding: 0 60px;
+}
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

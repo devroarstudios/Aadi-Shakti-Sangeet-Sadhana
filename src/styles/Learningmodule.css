@@ -1,0 +1,137 @@
+/* ==========================================
+   LEARNING MODULE
+========================================== */
+
+.learning-module {
+  padding: 5rem 2rem;
+  background: #f5f0e8;
+}
+
+.learning-module-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* GRID CONTAINER */
+
+.learning-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2px;
+
+  border: 2px solid #C8102E;
+  background: #C8102E;
+
+  margin-top: 3rem;
+}
+
+/* CARD */
+
+.learning-card {
+  background: #ffffff;
+
+  padding: 2.8rem 2.2rem;
+
+  position: relative;
+  overflow: hidden;
+
+  cursor: default;
+
+  transition: background 0.35s ease;
+}
+
+/* RED STRIPE */
+
+.learning-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  background: #C8102E;
+
+  transition: height 0.45s ease;
+}
+
+.learning-card:hover::before {
+  height: 100%;
+}
+
+.learning-card:hover {
+  background: #ffffff;
+}
+
+/* TITLE */
+
+.learning-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+
+  color: #0f0f0f;
+
+  margin-bottom: 6px;
+}
+
+/* HINDI LABEL */
+
+.hindi-label {
+  display: block;
+
+  margin-bottom: 12px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 13px;
+
+  color: #C8102E;
+}
+
+/* BODY */
+
+.learning-card p {
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: #5a4a4a;
+
+  margin-bottom: 16px;
+}
+
+/* TAGS */
+
+.course-tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+.tag {
+  border: 1px solid #C8102E;
+
+  padding: 4px 12px;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #C8102E;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .learning-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -120,7 +120,7 @@ export default function Footer() {
       {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <span>
-          © 2025 Aadi Shakti Sangeet Sadhana. All rights reserved.
+          © 2026 Aadi Shakti Sangeet Sadhana. All rights reserved.
         </span>
 
         <span className="hcopy">

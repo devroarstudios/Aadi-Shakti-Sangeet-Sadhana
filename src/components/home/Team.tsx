@@ -1,4 +1,5 @@
 import { teamMembers } from "@/data/team";
+import Link from "next/link";
 
 export default function Team() {
   return (
@@ -45,6 +46,12 @@ export default function Team() {
               </div>
 
               <p>{member.bio}</p>
+<Link
+  href={`/gurus/${member.slug}`}
+  className="read-more-btn"
+>
+  Read More
+</Link>
             </div>
           ))}
         </div>

@@ -9,7 +9,7 @@
 }
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-top: 2.5rem;
 }
@@ -19,6 +19,8 @@
   padding: 2rem 1.5rem;
   border-bottom: 3px solid transparent;
   transition: border-color 0.3s, transform 0.3s;
+  display: flex;
+  flex-direction: column;
 }
 .team-card:hover {
   border-color: #C8102E;
@@ -67,4 +69,39 @@
   color: #5a4a4a;
   line-height: 1.6;
   font-style: italic;
+  flex-grow: 1;
+}
+.read-more-btn {
+  display: inline-block;
+  margin-top: auto;
+
+  padding: 10px 22px;
+
+  border: 1px solid #C8102E;
+  color: #C8102E;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  transition: .3s ease;
+}
+
+.read-more-btn:hover{
+  background: #C8102E;
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
 }

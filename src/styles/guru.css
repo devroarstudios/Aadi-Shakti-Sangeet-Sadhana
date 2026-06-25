@@ -1,0 +1,53 @@
+.guru-page{
+  padding: 6rem 2rem;
+  background: #faf8f5;
+}
+
+.guru-container{
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.guru-image img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+}
+
+.guru-content h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.guru-content h3{
+  color: #C8102E;
+  margin-bottom: 10px;
+}
+
+.hindi-role{
+  color: #C8102E;
+  margin-bottom: 30px;
+}
+
+.guru-content p{
+  font-size: 18px;
+  line-height: 2;
+  color: #555;
+}
+
+@media(max-width:900px){
+
+  .guru-container{
+    grid-template-columns: 1fr;
+  }
+
+  .guru-content h1{
+    font-size: 32px;
+  }
+}

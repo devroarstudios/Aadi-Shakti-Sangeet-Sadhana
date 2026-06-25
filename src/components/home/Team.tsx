@@ -2,6 +2,9 @@ import { teamMembers } from "@/data/team";
 import Link from "next/link";
 
 export default function Team() {
+  const featuredMembers = teamMembers.slice(0, 2);
+  const otherMembers = teamMembers.slice(2);
+
   return (
     <div id="team" className="team-section">
       <div className="team-inner">
@@ -22,8 +25,50 @@ export default function Team() {
           </div>
         </div>
 
+        {/* Featured Members */}
+
+        <div className="featured-team">
+
+          {featuredMembers.map((member) => (
+            <div
+              key={member.name}
+              className="featured-card"
+            >
+              <div className="featured-avatar">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                />
+              </div>
+
+              <h3>{member.name}</h3>
+
+              <div className="role-en">
+                {member.role}
+              </div>
+
+              <div className="role">
+                {member.roleHindi}
+              </div>
+
+              <p>{member.bio}</p>
+
+              <Link
+                href={`/gurus/${member.slug}`}
+                className="read-more-btn"
+              >
+                Read More
+              </Link>
+            </div>
+          ))}
+
+        </div>
+
+        {/* Remaining Team Members */}
+
         <div className="team-grid">
-          {teamMembers.map((member) => (
+
+          {otherMembers.map((member) => (
             <div
               key={member.name}
               className="team-card"
@@ -46,14 +91,17 @@ export default function Team() {
               </div>
 
               <p>{member.bio}</p>
-<Link
-  href={`/gurus/${member.slug}`}
-  className="read-more-btn"
->
-  Read More
-</Link>
+
+              <Link
+                href={`/gurus/${member.slug}`}
+                className="read-more-btn"
+              >
+                Read More
+              </Link>
+
             </div>
           ))}
+
         </div>
 
       </div>

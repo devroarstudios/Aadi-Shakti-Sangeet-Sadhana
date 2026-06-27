@@ -151,20 +151,23 @@ She continues to enrich the world of Indian classical arts through performance a
 
 {
   slug: "sujit-shankar",
-  image: "IMAGE_LINK_HERE", // Replace with actual image URL later
+  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782572600/image_32_xemfbe.png",
   name: "Sujit Shankar",
-  role: "Music Instructor & Performer",
-  roleHindi: "संगीत प्रशिक्षक एवं कलाकार",
-  bio: "Passionate music educator and performer dedicated to nurturing students through quality music education.",
-  fullBio: `Sujit Shankar is a passionate music educator and performer associated with Aadi Shakti Sangeet Sadhana.
+  role: "Vocal & Keyboard Teacher",
+  roleHindi: "वोकल एवं कीबोर्ड शिक्षक",
+  bio: "Dedicated Vocal and Keyboard Teacher with over 8 years of experience in music education, performance, and nurturing young talent.",
 
-He actively contributes to the institution by guiding and mentoring students in their musical journey while promoting the rich traditions of Indian music.
+  fullBio: `Sujit Shankar is a dedicated Vocal and Keyboard Teacher with over eight years of teaching experience and is an esteemed faculty member at Aadi Shakti Sangeet Sadhana.
 
-With a deep passion for music and teaching, Sujit believes in nurturing creativity, discipline, confidence, and artistic expression among students. His teaching methodology focuses on building a strong foundation while encouraging students to explore and develop their individual musical abilities.
+He has earned the prestigious Sangeet Prabhakar degree in Hindustani Classical Music from Prayag Sangeet Samiti, Prayagraj, reflecting his strong academic foundation in Indian classical music.
 
-As an educator, he is committed to creating a positive and inspiring learning environment that enables students to grow both artistically and personally.
+Sujit received advanced musical training under the guidance of Shri Ankit Kumar Pandey, where he further refined his skills in classical music, performance, and music education.
 
-Through his dedication to music education and student development, Sujit Shankar continues to contribute meaningfully to the vision and mission of Aadi Shakti Sangeet Sadhana.`
+Alongside his teaching career, he has actively performed in numerous live stage shows and possesses valuable experience in playback singing, showcasing his versatility and deep passion for music.
+
+Passionate about nurturing young talent, Sujit believes that music education should be enjoyable, inspiring, and interactive. His warm and friendly approach helps him establish a strong connection with students, especially children, making every class engaging and enjoyable.
+
+His dedication, patience, and commitment to excellence have earned him the trust and admiration of both students and parents. Through his teaching, Sujit Shankar continues to inspire aspiring musicians while contributing meaningfully to the vision and mission of Aadi Shakti Sangeet Sadhana.`
 },
 
 {

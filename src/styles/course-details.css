@@ -1,0 +1,253 @@
+/* ── CARDS ───────────────────────────────────────────────── */
+
+
+/* ==========================
+   COURSE PAGE
+========================== */
+
+
+
+.course-page{
+    background:#faf8f5;
+    min-height:100vh;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.course-hero{
+    max-width:1300px;
+    margin:70px auto 50px;
+    padding:0 30px;
+
+    display:grid;
+    grid-template-columns:420px 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.course-image img{
+    width:100%;
+    border-radius:15px;
+    object-fit:cover;
+    box-shadow:0 12px 35px rgba(0,0,0,.12);
+}
+
+.course-content h1{
+    font-family:"Playfair Display",serif;
+    font-size:52px;
+    color:#111;
+    margin-bottom:8px;
+}
+
+.course-content h2{
+    color:#C8102E;
+    font-family:"Tiro Devanagari Hindi",serif;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.course-short{
+    font-size:18px;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+/* ==========================
+   TAGS
+========================== */
+
+.course-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.tag{
+    padding:8px 18px;
+    border:1px solid #C8102E;
+    color:#C8102E;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+/* ==========================
+   DETAILS
+========================== */
+
+.course-details{
+    max-width:1200px;
+    margin:auto;
+    padding:20px 30px 80px;
+}
+
+.course-section{
+    margin-bottom:55px;
+}
+
+.course-section h3{
+    font-family:"Playfair Display",serif;
+    font-size:32px;
+    color:#111;
+    margin-bottom:18px;
+    position:relative;
+}
+
+.course-section h3::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:3px;
+    background:#C8102E;
+    margin-top:8px;
+}
+
+.course-section p{
+    font-size:17px;
+    line-height:1.9;
+    color:#444;
+}
+
+/* ==========================
+   CURRICULUM
+========================== */
+
+.curriculum-list{
+    margin-top:20px;
+    padding-left:22px;
+}
+
+.curriculum-list li{
+    margin-bottom:12px;
+    font-size:17px;
+    color:#444;
+}
+
+/* ==========================
+   TABLE
+========================== */
+
+.table-wrapper{
+    overflow-x:auto;
+    margin-top:25px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+.course-table{
+    width:100%;
+    border-collapse:collapse;
+    min-width:900px;
+    background:#fff;
+}
+
+.course-table thead{
+    background:#C8102E;
+    color:#fff;
+}
+
+.course-table th{
+    padding:16px;
+    text-align:center;
+    font-size:15px;
+    border:1px solid #b30d29;
+}
+
+.course-table td{
+    padding:15px;
+    border:1px solid #e5e5e5;
+    text-align:center;
+    font-size:15px;
+    color:#444;
+}
+
+.course-table tbody tr:nth-child(even){
+    background:#faf7f7;
+}
+
+.course-table tbody tr:hover{
+    background:#fff5f6;
+}
+
+/* ==========================
+   CTA
+========================== */
+
+.course-cta{
+    text-align:center;
+    margin-top:70px;
+}
+
+.enquire-btn{
+    display:inline-block;
+    padding:15px 40px;
+    background:#C8102E;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    letter-spacing:1px;
+    border-radius:4px;
+    transition:.3s;
+}
+
+.enquire-btn:hover{
+    background:#a10d24;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:900px){
+
+.course-hero{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.course-image{
+    max-width:420px;
+    margin:auto;
+}
+
+.course-content h1{
+    font-size:40px;
+}
+
+.course-content h2{
+    font-size:22px;
+}
+
+.course-tags{
+    justify-content:center;
+}
+
+.course-section h3{
+    font-size:28px;
+}
+
+}
+
+@media(max-width:600px){
+
+.course-content h1{
+    font-size:32px;
+}
+
+.course-short{
+    font-size:16px;
+}
+
+.course-section h3{
+    font-size:24px;
+}
+
+.course-table{
+    min-width:800px;
+}
+
+}

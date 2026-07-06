@@ -13,6 +13,7 @@ import '@/styles/testimonials.css';
 import Testimonials from '@/components/home/Testimonials';
 import '@/styles/centers.css';
 import Centers from '@/components/home/Centers';
+import AffiliatedCenters from "@/components/home/AffiliatedCenters";
 import '@/styles/gallery-preview.css';
 import GalleryPreview from '@/components/home/GalleryPreview';
 import Team from '@/components/home/Team';
@@ -32,6 +33,7 @@ export default function Home() {
       <Team/>
       <Testimonials/>
       <Centers/>
+      <AffiliatedCenters />
       <GalleryPreview/>
      </main>
       <Footer />

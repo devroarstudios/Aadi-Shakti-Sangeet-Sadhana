@@ -42,7 +42,7 @@
 }
 
 .course-content h2{
-    color:#C8102E;
+    color:#000000;
     font-family:"Tiro Devanagari Hindi",serif;
     font-size:24px;
     margin-bottom:20px;
@@ -50,7 +50,7 @@
 
 .course-short{
     font-size:18px;
-    color:#555;
+    color:#ffffff;
     line-height:1.8;
     margin-bottom:25px;
 }

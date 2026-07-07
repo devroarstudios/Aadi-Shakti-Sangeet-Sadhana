@@ -24,6 +24,16 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="nav-links">
+
+          <li>
+            <Link
+              href="/"
+              className={pathname === '/home' ? 'nav-link active' : 'nav-link'}
+            >
+              Home
+            </Link>
+          </li>
+
           <li>
             <Link
               href="/about"

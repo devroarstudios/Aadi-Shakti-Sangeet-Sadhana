@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { courses } from "@/data/courses";
 
 export default function Offerings() {
@@ -30,9 +31,14 @@ export default function Offerings() {
 
         <div className="courses-grid">
           {courses.map((item) => (
-            <div
-              key={item.title}
+            <Link
+              key={item.slug}
+              href={`/courses/${item.slug}`}
               className="course-card"
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+              }}
             >
               <h3>{item.title}</h3>
 
@@ -52,7 +58,13 @@ export default function Offerings() {
                   </span>
                 ))}
               </div>
-            </div>
+
+              <span className="read-more-btn">
+                Read More
+                
+              </span>
+              
+            </Link>
           ))}
         </div>
       </div>

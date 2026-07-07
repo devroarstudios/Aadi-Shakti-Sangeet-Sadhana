@@ -64,12 +64,10 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Courses</h4>
           <ul>
-            <li><Link href="#courses">Kids Dance Classes</Link></li>
-            <li><Link href="#courses">Ladies Dance Classes</Link></li>
-            <li><Link href="#courses">Kids Vocal Classes</Link></li>
-            <li><Link href="#courses">Adult Vocal Classes</Link></li>
-            <li><Link href="#courses">Music Production</Link></li>
-            <li><Link href="#courses">Bollywood Singing</Link></li>
+            <li><Link href="#courses">Vocal Training</Link></li>
+            <li><Link href="#courses">Kathak Training</Link></li>
+            <li><Link href="#courses">Instrumental Training</Link></li>
+            
           </ul>
         </div>
 
@@ -77,6 +75,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Quick Links</h4>
           <ul>
+            <li><Link href="#home">Home</Link></li>
             <li><Link href="#about">About Us</Link></li>
             <li><Link href="#team">Our Team</Link></li>
             <li><Link href="#events">Events</Link></li>

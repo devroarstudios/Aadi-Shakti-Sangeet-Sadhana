@@ -3,37 +3,31 @@
    Extracted from about-strip section
 ================================================== */
 
-.course-hero {
-  background: #C8102E;
-  color: #ffffff;
-  padding: 5rem 2rem;
-  position: relative;
-  overflow: hidden;
+
+.courses-hero{
+    position:relative;
+    background:#C8102E;
+    color:#fff;
+    padding:120px 30px;
+    text-align:center;
+    overflow:hidden;
 }
 
-.course-hero::before {
-  content: "आदि शक्ति";
-  font-family: 'Tiro Devanagari Hindi', serif;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  font-size: 170px;
-  opacity: 0.06;
-
-  white-space: nowrap;
-  pointer-events: none;
+.courses-hero::before{
+    content:"आदि शक्ति";
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:170px;
+    opacity:.06;
+    white-space:nowrap;
+    pointer-events:none;
 }
 
-.course-hero-inner {
-  max-width: 1300px;
-  margin: 0 auto;
-
-  position: relative;
-  z-index: 1;
+.course-hero-inner{
+    position:relative;
+    z-index:1;
 }
 
 .course-hero-content {
@@ -54,7 +48,7 @@
   margin-bottom: 8px;
 }
 
-.course-hero h1 {
+.courses-hero h1 {
   font-family: 'Playfair Display', serif;
 
   font-size: 42px;
@@ -77,7 +71,7 @@
   margin-bottom: 1.5rem;
 }
 
-.course-hero p {
+.courses-hero p {
   max-width: 900px;
   margin: 0 auto;
 
@@ -103,15 +97,15 @@
 
 @media (max-width: 600px) {
 
-  .course-hero {
+  .courses-hero  {
     padding: 3.5rem 1.5rem;
   }
 
-  .course-hero::before {
+  .courses-hero::before {
     font-size: 90px;
   }
 
-  .course-hero h1 {
+  .courses-hero h1 {
     font-size: 24px;
   }
 

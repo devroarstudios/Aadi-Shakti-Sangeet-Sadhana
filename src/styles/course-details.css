@@ -19,12 +19,16 @@
 .course-hero{
     max-width:1300px;
     margin:70px auto 50px;
-    padding:0 30px;
+    padding:40px;
+    background:#fff;
 
     display:grid;
     grid-template-columns:420px 1fr;
     gap:60px;
     align-items:center;
+
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 .course-image img{
@@ -50,7 +54,7 @@
 
 .course-short{
     font-size:18px;
-    color:#ffffff;
+    color:#555;
     line-height:1.8;
     margin-bottom:25px;
 }

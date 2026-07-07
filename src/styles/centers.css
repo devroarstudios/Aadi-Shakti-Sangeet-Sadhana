@@ -1,6 +1,6 @@
 /* CENTERS */
 .centers-section {
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 4rem;
   background: #0f0f0f;
   color: #ffffff;
 }
@@ -162,4 +162,22 @@
 /* Heading spacing */
 .center-card h3{
     margin-top:8px;
+}
+
+/* ==========================================
+   AFFILIATED CENTERS
+========================================== */
+
+.affiliated-section{
+    background:#0f0f0f;
+    color:#fff;
+    padding:2rem 2rem 4rem;   /* Reduced top padding */
+}
+
+.affiliated-section .centers-title{
+    margin-bottom:1.5rem;      /* Was 3rem */
+}
+
+.affiliated-section .centers-grid{
+    margin-top:1.5rem;         /* Was 3rem */
 }

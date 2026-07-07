@@ -1,5 +1,6 @@
 import "@/styles/Partner.css";
 
+
 export default function Partner() {
   return (
     <section className="partner-section">

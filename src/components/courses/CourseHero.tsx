@@ -1,6 +1,6 @@
 export default function CourseHero() {
   return (
-    <section className="courses-hero">
+    <section className="page-hero">
       <div className="course-hero-inner">
 
         <div className="course-hero-content">

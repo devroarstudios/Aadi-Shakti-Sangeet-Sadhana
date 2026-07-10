@@ -174,4 +174,16 @@
   .courses-grid {
     grid-template-columns: 1fr;
   }
+
+/* Courses page only */
+
+.course-readmore{
+    margin-top:20px;
+    display:flex;
+    justify-content:flex-start;   /* Left align */
+}
+
+.course-readmore-btn{
+    margin:0;
+}
 }

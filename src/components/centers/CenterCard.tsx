@@ -1,6 +1,6 @@
 export default function CenterCard() {
   return (
-    <section className="centers-hero">
+    <section className="page-hero">
        <div className="centers-hero-content">
         <div className="course-hero-content">
 

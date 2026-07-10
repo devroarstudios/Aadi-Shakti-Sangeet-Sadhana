@@ -254,4 +254,36 @@
     min-width:800px;
 }
 
+.course-readmore{
+    margin-top:25px;
+    display:flex;
+    justify-content:flex-start;   /* Left aligned */
+}
+
+.course-readmore-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:12px 36px;
+
+    background:#fff;
+    color:#C8102E;
+
+    border:1px solid #C8102E;
+
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    transition:.3s;
+    cursor:pointer;
+}
+
+.course-readmore-btn:hover{
+    background:#C8102E;
+    color:#fff;
+}
+
 }

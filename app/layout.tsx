@@ -5,6 +5,7 @@ import PageLoader from "@/components/layout/PageLoader";
 import AnnouncementTicker from "@/components/layout/AnnouncementTicker";
 import WhatsappFloat from "@/components/layout/WhatsappFloat";
 import "@/styles/guru.css";
+import "@/styles/ticker.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

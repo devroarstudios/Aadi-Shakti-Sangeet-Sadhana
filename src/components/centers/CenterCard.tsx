@@ -1,22 +1,23 @@
-export default function CourseHero() {
+export default function CenterCard() {
   return (
-    <section className="course-hero">
-      <div className="course-hero-inner">
-
+    <section className="page-hero">
+       <div className="centers-hero-content">
         <div className="course-hero-content">
 
           <span className="course-breadcrumb">
-            Home › Centers
+            HOME › CENTERS
           </span>
 
-          <h1>Affiliated Centers</h1>
+          <h1>Our Centers</h1>
 
           <span className="course-hindi">
-            सम्बद्ध केंद्र
+            हमारे केंद्र
           </span>
 
           <p>
-            Two centers serving Navi Mumbai with the same standard of excellence.
+            Discover our official Aadi Shakti centers dedicated to preserving,
+            teaching, and promoting the rich traditions of Indian classical
+            dance and music through expert guidance and structured learning.
           </p>
 
         </div>

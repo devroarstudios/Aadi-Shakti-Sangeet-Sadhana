@@ -32,7 +32,7 @@ export const courses: Course[] = [
   slug: "vocal-training",
   title: "Vocal Training",
   hindi: "स्वर प्रशिक्षण",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783271795/vocals_z1seyg.jpg",
+  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783712997/DSC02520_pyfsii.jpg",
 
   description:
     "Designed for learners of all ages, developing vocal skills, rhythm, and musical expression with expert guidance.",
@@ -182,7 +182,7 @@ export const courses: Course[] = [
   slug: "kathak-training",
   title: "Kathak Training",
   hindi: "कथक प्रशिक्षण",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783271795/kathak_o9vpaz.jpg",
+  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783712413/DSC02373_c4hptd.jpg",
 
   description:
     "Traditional Kathak training that builds grace, precision, and artistic confidence through structured learning.",
@@ -329,7 +329,7 @@ export const courses: Course[] = [
   slug: "instrumental-training",
   title: "Instrumental Training",
   hindi: "वाद्य संगीत प्रशिक्षण",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783271795/music_ym5rdh.jpg",
+  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783710627/1A8A0001_1_t5eats.jpg",
 
   description:
     "Structured instrumental training that develops creativity, and confident musicianship through expert guidance.",

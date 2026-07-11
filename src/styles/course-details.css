@@ -19,12 +19,16 @@
 .course-hero{
     max-width:1300px;
     margin:70px auto 50px;
-    padding:0 30px;
+    padding:40px;
+    background:#fff;
 
     display:grid;
     grid-template-columns:420px 1fr;
     gap:60px;
     align-items:center;
+
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 .course-image img{
@@ -50,7 +54,7 @@
 
 .course-short{
     font-size:18px;
-    color:#ffffff;
+    color:#555;
     line-height:1.8;
     margin-bottom:25px;
 }
@@ -248,6 +252,39 @@
 
 .course-table{
     min-width:800px;
+}
+
+.course-readmore{
+    margin-top:25px;
+    display:flex;
+    justify-content:flex-start;   /* Left aligned */
+}
+
+.course-readmore{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+
+
+    padding:12px 36px;
+
+    background:#fff;
+    color:#C8102E;
+
+    border:1px solid #C8102E;
+
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    transition:.3s;
+    cursor:pointer;
+}
+
+.course-readmore-btn:hover{
+    background:#C8102E;
+    color:#fff;
 }
 
 }

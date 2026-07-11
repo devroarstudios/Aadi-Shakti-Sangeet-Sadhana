@@ -1,5 +1,6 @@
 // src/components/home/StorySection.tsx
 'use client';
+import Link from "next/link";
 
 export default function Story() {
   return (
@@ -60,9 +61,9 @@ export default function Story() {
             <div className="lbl">Courses Offered</div>
           </div>
 
-          <button className="btn-learn mobile-btn">
-            Enquire Now
-          </button>
+          <Link href="/contact" className="btn-learn mobile-btn">
+  Enquire Now
+</Link>
 
         </div>
 

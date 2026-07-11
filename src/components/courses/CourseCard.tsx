@@ -33,9 +33,13 @@ export default function CourseCard({ course }: CourseCardProps) {
           ))}
         </div>
 
-        <div className="mt-6 text-red-600 font-semibold group-hover:translate-x-1 transition">
-          Learn More →
-        </div>
+        <div className="mt-6 flex justify-start">
+  <div className="course-readmore">
+  <button className="inline-flex items-center justify-center border border-[#C8102E] px-6 py-3 text-sm font-bold tracking-[2px] text-[#C8102E] transition duration-300 hover:bg-[#C8102E] hover:text-white">
+    READ MORE
+  </button>
+</div>
+</div>
 
       </div>
     </Link>

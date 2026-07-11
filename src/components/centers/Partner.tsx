@@ -1,4 +1,5 @@
 import "@/styles/Partner.css";
+import Link from "next/link";
 
 export default function Partner() {
   return (
@@ -46,12 +47,9 @@ export default function Partner() {
 
             <div className="partner-buttons">
 
-              <a
-                href="#"
-                className="partner-btn-red"
-              >
-                Enquire Now
-              </a>
+              <Link href="/contact" className="btn-learn">
+  Enquire Now
+</Link>
 
               <a
                 href="/contact"

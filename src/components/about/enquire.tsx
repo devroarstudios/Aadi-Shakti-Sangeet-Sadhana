@@ -1,7 +1,6 @@
 // src/components/about/Enquire.tsx
 
 import Link from "next/link";
-
 export default function Enquire() {
   return (
     <section id="enquire" className="enquire-section">
@@ -26,9 +25,9 @@ export default function Enquire() {
 
         <div className="enquire-buttons">
 
-          <a href="#" className="btn-red">
+          <Link href="/contact" className="btn-learn">
   Enquire Now
-</a>
+</Link>
 
           <Link href="/#courses" className="btn-outline-white">
             View All Courses

@@ -10,18 +10,18 @@ export const videos: YoutubeVideo[] = [
     id: "1",
     title: "Annual Day Performance 2024",
     channel: "Aadi Shakti Sangeet Sadhana",
-    embedId: "VIDEO_ID_1",
+    embedId: "vJzglevPzKw",
   },
   {
     id: "2",
     title: "Classical Dance Recital — Kharghar Center",
     channel: "Aadi Shakti Sangeet Sadhana",
-    embedId: "VIDEO_ID_2",
+    embedId: "l78xuTE2RjY",
   },
   {
     id: "3",
     title: "Kids Vocal Showcase 2024",
     channel: "Aadi Shakti Sangeet Sadhana",
-    embedId: "VIDEO_ID_3",
+    embedId: "wUy6qyccN2g",
   },
 ];

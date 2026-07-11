@@ -3,7 +3,7 @@ import { affiliatedCenters } from "@/data/affiliatedCenters";
 
 export default function AffiliatedCenters() {
   return (
-    <section className="centers-section affiliated-section">
+    <section className="affiliated-section">
       <div className="centers-inner">
 
         <div className="centers-title">

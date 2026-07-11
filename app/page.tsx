@@ -22,6 +22,7 @@ import '@/styles/footer.css';
 import Footer from '@/components/layout/Footer';
 
 
+
 export default function Home() {
   return (
     <>

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-
+import Link from "next/link";
 import { courses } from "@/data/courses";
 
 import "@/styles/navbar.css";

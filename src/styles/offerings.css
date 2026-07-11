@@ -131,7 +131,7 @@
 /* LEARN MORE BUTTON */
 .read-more-wrapper{
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     margin-top:30px;
 }
 
@@ -178,12 +178,42 @@
 /* Courses page only */
 
 .course-readmore{
-    margin-top:20px;
-    display:flex;
-    justify-content:flex-start;   /* Left align */
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+
+   /* Left align */
 }
 
 .course-readmore-btn{
     margin:0;
 }
+}
+
+.course-read-more-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.course-read-more-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    padding: 12px 20px;
+
+    border: 1px solid #C8102E;
+    color: #C8102E;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.course-read-more-btn:hover{
+    background: #C8102E;
+    color: #fff;
 }

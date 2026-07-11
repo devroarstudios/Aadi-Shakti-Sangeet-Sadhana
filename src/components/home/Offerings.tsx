@@ -59,11 +59,12 @@ export default function Offerings() {
                 ))}
               </div>
 
-              <div className="course-readmore">
-  <span className="read-more-btn course-readmore-btn">
+              <div className="course-read-more-wrapper">
+  <span className="course-read-more-btn">
     Read More
   </span>
 </div>
+
               
             </Link>
           ))}

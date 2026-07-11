@@ -23,7 +23,7 @@ export default function CTA() {
 
         <div className="cta-buttons">
 
-          <a href="#enquire" className="cta-btn-red">
+          <a href="/contact" className="cta-btn-red">
             Enquire Now
           </a>
 

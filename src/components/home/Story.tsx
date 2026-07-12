@@ -32,12 +32,13 @@ export default function Story() {
             walks through our doors.
           </p>
 
-          <button
-            className="btn-learn"
-            style={{ marginTop: "1.5rem" }}
-          >
-            Enquire Now
-          </button>
+          <Link
+  href="/contact"
+  className="btn-learn"
+  style={{ marginTop: "1.5rem", display: "inline-flex" }}
+>
+  Enquire Now
+</Link>
         </div>
 
         <div className="about-stats">

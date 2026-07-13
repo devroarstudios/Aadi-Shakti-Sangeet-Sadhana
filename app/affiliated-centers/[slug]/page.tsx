@@ -31,17 +31,28 @@ export default async function CenterPage({
 
        <section className="center-hero">
 
-  <div className="center-content">
+  <div className="center-hero-inner">
 
-    <span className="center-eyebrow">
-      AFFILIATED CENTRE
-    </span>
+    <div className="center-logo-box">
+      <img
+        src={center.logo}
+        alt={center.name}
+      />
+    </div>
 
-    <h1>{center.name}</h1>
+    <div className="center-content">
 
-    <h2>{center.tagline}</h2>
+      <span className="center-eyebrow">
+        AFFILIATED CENTRE
+      </span>
 
-    <div className="center-divider"></div>
+      <h1>{center.name}</h1>
+
+      <h2>{center.tagline}</h2>
+
+      <div className="center-divider"></div>
+
+    </div>
 
   </div>
 

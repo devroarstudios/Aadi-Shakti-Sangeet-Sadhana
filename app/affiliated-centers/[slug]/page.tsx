@@ -71,7 +71,7 @@ export default async function CenterPage({
   <ul className="center-list">
     {center.courses.map((course) => (
       <li key={course}>
-        <span className="bullet">◆</span>
+        <span className="bullet"></span>
         {course}
       </li>
     ))}
@@ -86,13 +86,14 @@ export default async function CenterPage({
   <ul className="center-list">
     {center.events.map((event) => (
       <li key={event}>
-        <span className="bullet">◆</span>
+        <span className="bullet"></span>
         {event}
       </li>
     ))}
   </ul>
 
 </div>
+
 
           <div className="center-section">
 

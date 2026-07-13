@@ -3,13 +3,47 @@
 }
 
 .center-hero{
-    max-width:1200px;
-    margin:120px auto 70px;   /* pushes below navbar */
+    max-width:1100px;
+    margin:120px auto 90px;
     padding:0 30px;
+    text-align:center;
+}
 
-    display:flex;
-    align-items:center;
-    gap:60px;
+.center-content{
+    max-width:900px;
+    margin:auto;
+}
+
+.center-eyebrow{
+    display:block;
+    color:#C8102E;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.center-content h1{
+    font-family:"Playfair Display", serif;
+    font-size:68px;
+    color:#111;
+    margin-bottom:18px;
+    line-height:1.1;
+}
+
+.center-content h2{
+    font-size:32px;
+    color:#C8102E;
+    font-weight:400;
+    line-height:1.5;
+}
+
+.center-divider{
+    width:90px;
+    height:4px;
+    background:#C8102E;
+    margin:40px auto 0;
 }
 
 .center-logo-box{

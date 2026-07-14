@@ -118,17 +118,13 @@ export default function ContactInfo() {
               </span>
 
               <div className="contact-address">
+  <strong>Aadi Shakti Kharghar</strong>{" "}
+  Shop 22, Green Heritage, Plot 79/80,
+  <br />
+  Near Green Medical, Sector 20,
+  <br />
+  Kharghar, Navi Mumbai — 410210
 
-                <strong>
-                  Aadi Shakti Kharghar
-                </strong>
-
-                Shop 22, Green Heritage, Plot 79/80,
-                <br />
-                Near Green Medical, Sector 20,
-                <br />
-                Kharghar, Navi Mumbai — 410210
-                <br />
 
                 <strong>Tel:</strong>
 

@@ -181,3 +181,20 @@
 .affiliated-section .centers-grid{
     margin-top:1.5rem;         /* Was 3rem */
 }
+
+.partner-btn{
+    display:inline-block;
+    padding:16px 42px;
+    border:2px solid #111;
+    color:#111;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.partner-btn:hover{
+    background:#111;
+    color:#fff;
+}

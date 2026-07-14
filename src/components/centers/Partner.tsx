@@ -47,9 +47,12 @@ export default function Partner() {
 
             <div className="partner-buttons">
 
-              <Link href="/contact" className="btn-learn">
-  Enquire Now
-</Link>
+              <a
+                href="/contact"
+                className="partner-btn-red"
+              >
+                Enquire Now
+              </a>
 
               <a
                 href="/contact"

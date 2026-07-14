@@ -6,12 +6,12 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   {
-    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783337278/Tapasyaa_logo_trans_soberx.png",
+    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783791463/DSC02576_ku99td.jpg",
     category: "annual",
     alt: "Annual function performance — students on stage",
   },
   {
-    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783336778/naad_al3gks.png",
+    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783791463/DSC02724_zbr2fj.jpg",
     category: "annual",
     alt: "Annual showcase — classical dance presentation",
   },

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { affiliatedCenters } from "@/data/affiliatedCenters";
 
 export default function AffiliatedCenters() {
@@ -24,21 +25,27 @@ export default function AffiliatedCenters() {
           </div>
         </div>
 
-     <div className="centers-grid">
+<div className="centers-grid">
   {affiliatedCenters.map((center) => (
-    <div key={center.name} className="center-card">
+    <div key={center.slug} className="center-card">
 
       <div className="center-header">
-        <Image
-          src={center.logo}
-          alt={center.name}
-          width={60}
-          height={60}
-          className="center-logo"
-        />
+        <Link href={`/affiliated-centers/${center.slug}`}>
+          <Image
+            src={center.logo}
+            alt={center.name}
+            width={60}
+            height={60}
+            className="center-logo"
+          />
+        </Link>
       </div>
 
-      <h3>{center.name}</h3>
+      <h3>
+        <Link href={`/affiliated-centers/${center.slug}`}>
+          {center.name}
+        </Link>
+      </h3>
 
       <div className="center-info">
 
@@ -49,7 +56,6 @@ export default function AffiliatedCenters() {
 
         <div className="center-row">
           <span className="ci">📞</span>
-
           <a href={center.phoneHref}>
             {center.phone}
           </a>
@@ -59,6 +65,7 @@ export default function AffiliatedCenters() {
           <span className="ci">⏰</span>
           <span>{center.hours}</span>
         </div>
+        
 
       </div>
 

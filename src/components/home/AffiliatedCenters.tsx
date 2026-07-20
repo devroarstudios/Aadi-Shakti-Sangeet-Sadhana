@@ -49,25 +49,33 @@ export default function AffiliatedCenters() {
 
       <div className="center-info">
 
-        <div className="center-row">
-          <span className="ci">📍</span>
-          <span>{center.address}</span>
-        </div>
+  <div className="center-row">
+    <span className="ci">📍</span>
+    <span>{center.address}</span>
+  </div>
 
-        <div className="center-row">
-          <span className="ci">📞</span>
-          <a href={center.phoneHref}>
-            {center.phone}
-          </a>
-        </div>
+  <div className="center-row">
+    <span className="ci">📞</span>
+    <a href={center.phoneHref}>
+      {center.phone}
+    </a>
+  </div>
 
-        <div className="center-row">
-          <span className="ci">⏰</span>
-          <span>{center.hours}</span>
-        </div>
-        
+  <div className="center-row">
+    <span className="ci">⏰</span>
+    <span>{center.hours}</span>
+  </div>
 
-      </div>
+</div>
+
+<div className="center-footer">
+  <Link
+    href={`/affiliated-centers/${center.slug}`}
+    className="center-readmore"
+  >
+    Read More →
+  </Link>
+</div>
 
     </div>
   ))}

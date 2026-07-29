@@ -19,48 +19,6 @@ export interface AffiliatedCenter {
 }
 
 export const affiliatedCenters: AffiliatedCenter[] = [
-  {
-    slug: "ninaad",
-
-    name: "Ninaad",
-
-    logo: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783336782/NINAAD_1_-1_woghrz.png",
-
-    tagline: "Discover Your Rhythm, Ignite Your Soul",
-
-    about: [
-      "Welcome to Ninaad Dance and Music Academy.",
-      "We believe that art is the ultimate form of self-expression. Our academy is a vibrant space designed to unlock your creative potential and bring your artistic dreams to life. Through structured training and professional guidance, we help students master the subtle nuances of both classical and contemporary art forms, shaping passionate learners into confident performers.",
-      "Our classes cater to all generations and skill levels, from young children discovering their first beat to adults reconnecting with their love for music and dance. Led by passionate instructors, our curriculum focuses on building strong foundations, technical precision, and a genuine emotional connection with the art.",
-      "We don't just teach techniques—we nurture a lifelong love for rhythm and melody. Join the Ninaad family today to experience the joy of performance, lasting friendships, and step onto a stage where your talents truly shine. Your artistic journey begins here.",
-    ],
-
-    courses: [
-      "Kathak",
-      "Semi-Classical Dance",
-      "Bollywood Dance",
-      "Folk Dance",
-      "Vocal Music",
-      "Guitar",
-      "Harmonium",
-      "Keyboard",
-      "Tabla",
-    ],
-
-    events: [
-      "Ninaad – Annual Cultural Festival",
-      "Tihayi – A Special Cultural Showcase Held Twice a Year",
-    ],
-
-    address:
-      "Bhavya Studio, 43/348 Unnat Nagar – 4, M. G. Road, Near Jain Nursing Home, Goregaon West, Mumbai – 400104",
-
-    phone: "+91 86520 44111",
-
-    phoneHref: "tel:+918652044111",
-
-    hours: "Regular & Weekend Batches Available",
-  },
 
   {
     slug: "nrutya-sadhana",
@@ -105,5 +63,48 @@ export const affiliatedCenters: AffiliatedCenter[] = [
     phoneHref: "tel:+919560422455",
 
     hours: "Mon – Sat | Morning & Evening Batches Available",
+  },
+
+    {
+    slug: "ninaad",
+
+    name: "Ninaad",
+
+    logo: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1783336782/NINAAD_1_-1_woghrz.png",
+
+    tagline: "Discover Your Rhythm, Ignite Your Soul",
+
+    about: [
+      "Welcome to Ninaad Dance and Music Academy.",
+      "We believe that art is the ultimate form of self-expression. Our academy is a vibrant space designed to unlock your creative potential and bring your artistic dreams to life. Through structured training and professional guidance, we help students master the subtle nuances of both classical and contemporary art forms, shaping passionate learners into confident performers.",
+      "Our classes cater to all generations and skill levels, from young children discovering their first beat to adults reconnecting with their love for music and dance. Led by passionate instructors, our curriculum focuses on building strong foundations, technical precision, and a genuine emotional connection with the art.",
+      "We don't just teach techniques—we nurture a lifelong love for rhythm and melody. Join the Ninaad family today to experience the joy of performance, lasting friendships, and step onto a stage where your talents truly shine. Your artistic journey begins here.",
+    ],
+
+    courses: [
+      "Kathak",
+      "Semi-Classical Dance",
+      "Bollywood Dance",
+      "Folk Dance",
+      "Vocal Music",
+      "Guitar",
+      "Harmonium",
+      "Keyboard",
+      "Tabla",
+    ],
+
+    events: [
+      "Ninaad – Annual Cultural Festival",
+      "Tihayi – A Special Cultural Showcase Held Twice a Year",
+    ],
+
+    address:
+      "Bhavya Studio, 43/348 Unnat Nagar – 4, M. G. Road, Near Jain Nursing Home, Goregaon West, Mumbai – 400104",
+
+    phone: "+91 86520 44111",
+
+    phoneHref: "tel:+918652044111",
+
+    hours: "Regular & Weekend Batches Available",
   },
 ];

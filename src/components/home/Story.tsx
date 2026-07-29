@@ -43,8 +43,8 @@ export default function Story() {
 
         <div className="about-stats">
           <div className="stat-box">
-            <div className="num">12+</div>
-            <div className="lbl">Years of Excellence</div>
+            <div className="num">10+</div>
+            <div className="lbl">Teachers</div>
           </div>
 
           <div className="stat-box">
@@ -53,7 +53,7 @@ export default function Story() {
           </div>
 
           <div className="stat-box">
-            <div className="num">2</div>
+            <div className="num">4</div>
             <div className="lbl">Centers</div>
           </div>
 

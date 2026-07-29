@@ -92,7 +92,7 @@ export default function Journey() {
           </div>
 
           <div className="journey-card">
-            <span className="journey-badge">100+ Students</span>
+            <span className="journey-badge">500+ Students</span>
 
             <h3>A Thriving Community</h3>
 

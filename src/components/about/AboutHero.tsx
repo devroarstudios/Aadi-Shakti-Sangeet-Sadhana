@@ -39,7 +39,7 @@ export default function AboutHero() {
             <div className="lbl">Courses</div>
           </div>
           <div className="stat-box">
-            <div className="num">100+</div>
+            <div className="num">500+</div>
             <div className="lbl">Students</div>
           </div>
           <div className="stat-box">

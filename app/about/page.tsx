@@ -7,7 +7,8 @@ import Journey from "@/components/about/journey";
 import Values from "@/components/about/values";
 import Team from '@/components/home/Team';
 import Enquire from "@/components/about/enquire";
-
+import LegacySection from "@/components/about/LegacySection";
+import "@/styles/legacy.css";
 import "@/styles/navbar.css";
 import "@/styles/footer.css";
 import "@/styles/story-section.css";
@@ -27,6 +28,7 @@ export default function AboutPage() {
       <main>
         <AboutHero />
         <FounderStory />
+        <LegacySection />
         <VisionMission />
         <Journey />
         <Values />

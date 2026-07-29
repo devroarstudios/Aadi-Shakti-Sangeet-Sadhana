@@ -1,0 +1,136 @@
+/* ===========================
+   LEGACY SECTION
+=========================== */
+
+.legacy-section {
+  padding: 5rem 2rem;
+  background: #faf8f5;
+}
+
+.legacy-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: minmax(320px, 560px) 1fr;
+  gap: 4rem;
+
+  align-items: center;
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.legacy-image {
+  width: 100%;
+}
+
+.legacy-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+
+  border-radius: 12px;
+  background: #fff;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.legacy-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.legacy-eyebrow {
+  color: #C8102E;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.legacy-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.65rem;      /* Smaller */
+  font-weight: 500;         /* Less bold */
+  line-height: 1.5;
+  color: #2b1b1b;
+  margin-bottom: 1.75rem;
+}
+
+.legacy-highlight {
+  border-left: 4px solid #C8102E;
+  padding-left: 1.5rem;
+}
+
+.legacy-highlight h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.35rem;
+  font-weight: 500;         /* Less bold */
+  color: #C8102E;
+  margin: 0;
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 992px) {
+
+  .legacy-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .legacy-image {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .legacy-content {
+    text-align: center;
+  }
+
+  .legacy-highlight {
+    border-left: none;
+    border-top: 4px solid #C8102E;
+    padding: 1.5rem 0 0;
+  }
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+  .legacy-content h2 {
+    font-size: 1.35rem;
+    line-height: 1.5;
+  }
+
+  .legacy-highlight h3 {
+    font-size: 1.15rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .legacy-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .legacy-highlight h3 {
+    font-size: 1rem;
+  }
+
+}

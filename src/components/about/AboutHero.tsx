@@ -31,20 +31,23 @@ export default function AboutHero() {
 
         <div className="about-stats">
           <div className="stat-box">
-            <div className="num">2</div>
-            <div className="lbl">Centers</div>
+            <div className="num">10+</div>
+            <div className="lbl">Teachers</div>
           </div>
-          <div className="stat-box">
-            <div className="num">6+</div>
-            <div className="lbl">Courses</div>
-          </div>
+
           <div className="stat-box">
             <div className="num">500+</div>
-            <div className="lbl">Students</div>
+            <div className="lbl">Students Trained</div>
           </div>
+
           <div className="stat-box">
-            <div className="num">∞</div>
-            <div className="lbl">Passion</div>
+            <div className="num">4</div>
+            <div className="lbl">Centers</div>
+          </div>
+
+          <div className="stat-box">
+            <div className="num">6+</div>
+            <div className="lbl">Courses Offered</div>
           </div>
         </div>
 

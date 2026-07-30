@@ -74,7 +74,7 @@ She serves as a music teacher at Aadi Shakti Sangeet Kala Kendra, Ulwe, Navi Mum
 
 {
 slug: "sadia-hossain",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372275/file_0000000034ec722f9a94bc5ac3174236_1_vr3yxv.png",
 name: "Sadia Hossain",
 role: "Music & Kathak Teacher",
 roleHindi: "संगीत एवं कथक शिक्षिका",

@@ -8,7 +8,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500",
+      "P",
     name: "Priya Kulkarni",
     course: "Classical Vocal Student",
     review:
@@ -16,7 +16,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500",
+      "R",
     name: "Rohan Patil",
     course: "Dance Student",
     review:
@@ -24,7 +24,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500",
+      "A",
     name: "Aarohi Deshmukh",
     course: "Semi-Classical Vocal",
     review:
@@ -32,7 +32,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500",
+      "A",
     name: "Aditya Joshi",
     course: "Dance Student",
     review:

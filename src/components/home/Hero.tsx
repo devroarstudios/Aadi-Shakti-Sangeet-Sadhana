@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { useRouter } from "next/navigation";
 
 interface Slide {
   id: number;
@@ -54,6 +55,7 @@ const slides: Slide[] = [
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
+  const router = useRouter();
 
   const goToSlide = useCallback((n: number) => {
     setCurrent(n);
@@ -104,13 +106,11 @@ export default function Hero() {
                 <p className="slide-copy">{slide.copy}</p>
 
                 <button
-                  className="btn-learn"
-                  onClick={() => {
-                    console.log(slide.course);
-                  }}
-                >
-                  Learn More
-                </button>
+  className="btn-learn"
+  onClick={() => router.push("/courses")}
+>
+  Learn More
+</button>
               </div>
             </div>
           </div>

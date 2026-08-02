@@ -46,7 +46,7 @@ export default function AboutHero() {
           </div>
 
           <div className="stat-box">
-            <div className="num">6+</div>
+            <div className="num">8</div>
             <div className="lbl">Courses Offered</div>
           </div>
         </div>

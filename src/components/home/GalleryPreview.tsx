@@ -1,12 +1,16 @@
-import Image from 'next/image';
-import { galleryImages } from '@/data/gallery';
+import { galleryImages } from "@/data/gallery1";
 
 export default function GalleryPreview() {
   return (
-    <div id="gallery" className="gallery-section">
+    <section id="gallery" className="gallery-section">
       <div className="gallery-inner">
 
+        {/* =========================
+            SECTION HEADER
+        ========================= */}
+
         <div className="section-header">
+
           <span className="eyebrow">
             Moments Captured
           </span>
@@ -24,31 +28,36 @@ export default function GalleryPreview() {
             <div className="dia"></div>
             <span></span>
           </div>
+
         </div>
 
+
+        {/* =========================
+            GALLERY GRID
+        ========================= */}
+
         <div className="gallery-grid">
-          {galleryImages.map((image) => (
+
+          {galleryImages.slice(0, 8).map((image, index) => (
+
             <div
-              key={image.src}
+              key={`${image.image}-${index}`}
               className="gallery-item"
             >
-              <Image
-                src={image.src}
+
+              <img
+                src={image.image}
                 alt={image.alt}
-                width={400}
-                height={250}
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  display: 'block',
-                }}
+                className="gallery-preview-image"
               />
+
             </div>
+
           ))}
+
         </div>
 
       </div>
-    </div>
+    </section>
   );
 }

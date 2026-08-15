@@ -1,3 +1,5 @@
+import { affiliatedCenters } from "@/data/affiliatedCenters";
+
 export default function ContactInfo() {
   return (
     <section className="contact-info-section">
@@ -171,6 +173,85 @@ export default function ContactInfo() {
                 Mon – Sat, Morning & Evening Batches
 
               </div>
+            </div>
+
+                        {/* =========================
+                AFFILIATED CENTERS
+            ========================= */}
+
+            <div className="contact-affiliated-wrapper">
+
+              <div className="contact-section-header contact-left-header">
+  <span className="contact-eyebrow">
+    Our Affiliated Centres
+  </span>
+
+  <h2>Get In Touch</h2>
+
+  <span className="contact-hindi">
+    संबद्ध केंद्र
+  </span>
+
+  <div className="contact-divider">
+    <span></span>
+    <div className="contact-dia"></div>
+    <span></span>
+  </div>
+</div>
+
+              {affiliatedCenters.map((center) => (
+                <div
+                  className="contact-center-block contact-affiliated-block"
+                  key={center.slug}
+                >
+
+                  <span className="contact-center-badge">
+                    {center.name}
+                  </span>
+
+                  <div className="contact-address">
+
+                    <strong>{center.name}</strong>
+
+                    <br />
+
+                    {center.address}
+
+                    <br />
+
+                    <strong>Tel:</strong>{" "}
+
+                    <a href={center.phoneHref}>
+                      {center.phone}
+                    </a>
+
+                    {center.alternatePhone && (
+                      <>
+                        <br />
+
+                        <strong>Alternate:</strong>{" "}
+
+                        <a
+                          href={`tel:${center.alternatePhone.replace(
+                            /[^+\d]/g,
+                            ""
+                          )}`}
+                        >
+                          {center.alternatePhone}
+                        </a>
+                      </>
+                    )}
+
+                    <br />
+
+                    <strong>Hours:</strong>{" "}
+                    {center.hours}
+
+                  </div>
+
+                </div>
+              ))}
+
             </div>
 
             <div className="contact-social-wrapper">

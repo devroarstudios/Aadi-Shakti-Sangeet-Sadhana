@@ -25,7 +25,7 @@ export default function Enquire() {
 
         <div className="enquire-buttons">
 
-          <Link href="/contact" className="btn-learn">
+          <Link href="/contact" className="enquire-btn-dark">
   Enquire Now
 </Link>
 

@@ -28,38 +28,36 @@ export default async function CenterPage({
       <main className="center-page">
 
         {/* Hero */}
+        <section className="center-hero">
 
-       <section className="center-hero">
+          <div className="center-hero-inner">
 
-  <div className="center-hero-inner">
+            <div className="center-logo-box">
+              <img
+                src={center.logo}
+                alt={center.name}
+              />
+            </div>
 
-    <div className="center-logo-box">
-      <img
-        src={center.logo}
-        alt={center.name}
-      />
-    </div>
+            <div className="center-content">
 
-    <div className="center-content">
+              <span className="center-eyebrow">
+                AFFILIATED CENTRE
+              </span>
 
-      <span className="center-eyebrow">
-        AFFILIATED CENTRE
-      </span>
+              <h1>{center.name}</h1>
 
-      <h1>{center.name}</h1>
+              <h2>{center.tagline}</h2>
 
-      <h2>{center.tagline}</h2>
+              <div className="center-divider"></div>
 
-      <div className="center-divider"></div>
+            </div>
 
-    </div>
+          </div>
 
-  </div>
-
-</section>
+        </section>
 
         {/* About */}
-
         <section className="center-details">
 
           <div className="center-section">
@@ -72,37 +70,39 @@ export default async function CenterPage({
 
           </div>
 
-        <div className="center-section">
+          {/* Courses */}
+          <div className="center-section">
 
-  <h3>Courses Offered</h3>
+            <h3>Courses Offered</h3>
 
-  <ul className="center-list">
-    {center.courses.map((course) => (
-      <li key={course}>
-        <span className="bullet"></span>
-        {course}
-      </li>
-    ))}
-  </ul>
+            <ul className="center-list">
+              {center.courses.map((course) => (
+                <li key={course}>
+                  <span className="bullet"></span>
+                  {course}
+                </li>
+              ))}
+            </ul>
 
-</div>
+          </div>
 
-         <div className="center-section">
+          {/* Events */}
+          <div className="center-section">
 
-  <h3>Our Signature Events</h3>
+            <h3>Our Signature Events</h3>
 
-  <ul className="center-list">
-    {center.events.map((event) => (
-      <li key={event}>
-        <span className="bullet"></span>
-        {event}
-      </li>
-    ))}
-  </ul>
+            <ul className="center-list">
+              {center.events.map((event) => (
+                <li key={event}>
+                  <span className="bullet"></span>
+                  {event}
+                </li>
+              ))}
+            </ul>
 
-</div>
+          </div>
 
-
+          {/* Contact */}
           <div className="center-section">
 
             <h3>Contact Information</h3>

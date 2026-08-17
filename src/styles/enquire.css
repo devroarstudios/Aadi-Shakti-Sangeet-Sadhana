@@ -1,6 +1,5 @@
 /* ============================================================
    ENQUIRE CTA
-   Extracted from about.html + style.css
    ============================================================ */
 
 .enquire-section {
@@ -11,7 +10,7 @@
 }
 
 .enquire-inner {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .enquire-section h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 42px;
   font-weight: 900;
   line-height: 1.15;
@@ -31,7 +30,7 @@
 .enquire-hindi {
   display: block;
 
-  font-family: 'Tiro Devanagari Hindi', serif;
+  font-family: "Tiro Devanagari Hindi", serif;
   font-size: 20px;
 
   color: #e8c96e;
@@ -40,78 +39,84 @@
 }
 
 .enquire-copy {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 17px;
   line-height: 1.8;
 
   color: rgba(255, 255, 255, 0.75);
 
-  margin-bottom: 2.5rem;
+  margin: 0 auto 2.5rem;
 
   font-style: italic;
+  max-width: 850px;
 }
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
 
 .enquire-buttons {
   display: flex;
-  gap: 1rem;
-
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: stretch;
+
+  gap: 20px;
+
+  flex-wrap: nowrap;
 }
 
-/* Uses existing button styles from style.css */
-.btn-outline-white {
-  display: inline-block;
+/* ALL THREE BUTTONS */
+.enquire-buttons a {
+  width: 260px;
+  height: 56px;
 
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 20px;
+
+  font-family: "Raleway", sans-serif;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition: all 0.3s ease;
+}
+
+/* ============================================================
+   ENQUIRE NOW
+============================================================ */
+
+.btn-learn {
+  background: #C8102E;
+  color: #ffffff;
+
+  border: 2px solid #C8102E;
+}
+
+.btn-learn:hover {
+  background: #9B0A22;
+  border-color: #9B0A22;
+}
+
+/* ============================================================
+   VIEW COURSES + WHATSAPP
+============================================================ */
+
+.btn-outline-white {
   background: transparent;
   color: #ffffff;
 
-  padding: 13px 36px;
-
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-
-  text-transform: uppercase;
-  text-decoration: none;
-
   border: 2px solid #ffffff;
-
-  transition: all 0.3s;
-
-  font-family: 'Raleway', sans-serif;
-}
-
-.btn-red {
-  display: inline-block;
-  background: #C8102E;
-  color: #fff;
-
-  padding: 13px 36px;
-
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-
-  text-transform: uppercase;
-
-  border: 2px solid #C8102E;
-
-  cursor: pointer;
-
-  font-family: 'Raleway', sans-serif;
-
-  text-decoration: none;
-
-  transition: all 0.3s;
-
-  appearance: none;
-  -webkit-appearance: none;
-}
-
-.btn-red:hover {
-  background: #9B0A22;
-  border-color: #9B0A22;
 }
 
 .btn-outline-white:hover {
@@ -119,13 +124,31 @@
   color: #0f0f0f;
 }
 
+/* ============================================================
+   TABLET
+============================================================ */
+
 @media (max-width: 900px) {
+
   .enquire-section h2 {
     font-size: 34px;
   }
+
+  .enquire-buttons {
+    gap: 14px;
+  }
+
+  .enquire-buttons a {
+    width: 220px;
+  }
 }
 
-@media (max-width: 600px) {
+/* ============================================================
+   MOBILE
+============================================================ */
+
+@media (max-width: 700px) {
+
   .enquire-section {
     padding: 4rem 1.5rem;
   }
@@ -145,11 +168,12 @@
   .enquire-buttons {
     flex-direction: column;
     align-items: center;
+    gap: 14px;
   }
 
-  .enquire-buttons a,
-  .enquire-buttons button {
+  .enquire-buttons a {
     width: 100%;
-    max-width: 280px;
+    max-width: 300px;
+    height: 54px;
   }
 }

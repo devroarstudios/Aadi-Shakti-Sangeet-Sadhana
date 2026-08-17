@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   description: "Indian Classical Music & Dance Academy",
 
   icons: {
-    icon: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
-    shortcut: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
-    apple: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
+    icon: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785697352/aadi_shakti_logo_hqqfvu.png",
+    shortcut: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785697352/aadi_shakti_logo_hqqfvu.png",
+    apple: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785697352/aadi_shakti_logo_hqqfvu.png",
   },
 };
 

@@ -11,7 +11,7 @@ export default function Footer() {
         {/* BRAND COL */}
         <div className="footer-brand">
           <Image
-  src="/aadi_shakti_logo.png"
+  src="https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp"
   alt="Aadi Shakti Logo"
   width={120}
   height={120}
@@ -23,7 +23,7 @@ export default function Footer() {
 />
 
           <p>
-            &ldquo;Where music is not a lesson — it is a way of life, a
+            &ldquo;Where music is not a lesson it is a way of life, a
             connection to the divine.&rdquo;
           </p>
 

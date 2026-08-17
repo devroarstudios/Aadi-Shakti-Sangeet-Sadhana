@@ -16,7 +16,7 @@ export default function CourseHero() {
           </span>
 
           <p>
-            A structured, progressive syllabus across all six disciplines — building mastery year by year, from foundational technique to confident performance.
+            A structured, progressive syllabus across all six disciplines building mastery year by year, from foundational technique to confident performance.
           </p>
 
         </div>

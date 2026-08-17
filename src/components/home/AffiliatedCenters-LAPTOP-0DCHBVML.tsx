@@ -1,0 +1,87 @@
+import Image from "next/image";
+import Link from "next/link";
+import { affiliatedCenters } from "@/data/affiliatedCenters";
+
+export default function AffiliatedCenters() {
+  return (
+    <section className="affiliated-section">
+      <div className="centers-inner">
+
+        <div className="centers-title">
+          <span className="centers-eyebrow">
+            Our Network
+          </span>
+
+          <h2>Affiliated Centers</h2>
+
+          <span className="centers-hindi">
+            संबद्ध केंद्र
+          </span>
+
+          <div className="divider">
+            <span></span>
+            <div className="dia"></div>
+            <span></span>
+          </div>
+        </div>
+
+<div className="centers-grid">
+  {affiliatedCenters.map((center) => (
+    <div key={center.slug} className="center-card">
+
+      <div className="center-header">
+        <Link href={`/affiliated-centers/${center.slug}`}>
+          <Image
+            src={center.logo}
+            alt={center.name}
+            width={60}
+            height={60}
+            className="center-logo"
+          />
+        </Link>
+      </div>
+
+      <h3>
+        <Link href={`/affiliated-centers/${center.slug}`}>
+          {center.name}
+        </Link>
+      </h3>
+
+      <div className="center-info">
+
+  <div className="center-row">
+    <span className="ci">📍</span>
+    <span>{center.address}</span>
+  </div>
+
+  <div className="center-row">
+    <span className="ci">📞</span>
+    <a href={center.phoneHref}>
+      {center.phone}
+    </a>
+  </div>
+
+  <div className="center-row">
+    <span className="ci">⏰</span>
+    <span>{center.hours}</span>
+  </div>
+
+</div>
+
+<div className="center-footer">
+  <Link
+    href={`/affiliated-centers/${center.slug}`}
+    className="center-readmore"
+  >
+    Read More →
+  </Link>
+</div>
+
+    </div>
+  ))}
+</div>
+
+      </div>
+    </section>
+  );
+}

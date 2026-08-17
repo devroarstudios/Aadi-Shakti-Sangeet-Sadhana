@@ -48,7 +48,7 @@ const slides: Slide[] = [
     tag: 'For Adults · वयस्कों के लिए',
     title: 'Adult Vocal\nClasses',
     hindi: 'वयस्क संगीत कक्षाएं',
-    copy: 'Classical & Semi-Classical Vocal. Discover the depth of Indian classical music and awaken your inner voice at any age, at your pace.',
+    copy: 'Classical & Semi-Classical Vocal. Discover the depth of Indian classical music and awaken your inner voice  at any age, at your pace.',
     course: 'Adult Vocal Classes',
   },
 ];

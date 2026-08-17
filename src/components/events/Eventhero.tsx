@@ -16,7 +16,7 @@ export default function CourseHero() {
           </span>
 
           <p>
-            From annual showcases to festival celebrations — our students perform with heart, discipline and devotion on stages across Navi Mumbai.
+            From annual showcases to festival celebrations our students perform with heart, discipline and devotion on stages across Navi Mumbai.
           </p>
 
         </div>

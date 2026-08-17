@@ -17,7 +17,7 @@ export default function CourseHero() {
 
           <p>
             Six carefully crafted programmes in Indian classical music and
-            dance — for children, ladies and adults across all experience
+            dance for children, ladies and adults across all experience
             levels.
           </p>
 

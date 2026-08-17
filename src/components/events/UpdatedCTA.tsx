@@ -15,7 +15,7 @@ export default function UpdatedCTA() {
 
         <p>
           Follow us on Instagram and YouTube for the latest event
-          announcements, performance videos and academy news —
+          announcements, performance videos and academy news 
           straight from our stages to your screen.
         </p>
 

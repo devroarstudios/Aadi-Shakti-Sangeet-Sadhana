@@ -38,7 +38,7 @@ export default function Values() {
 
             <p>
               We approach every class as a devotional act.
-              Music and dance are not performances —
+              Music and dance are not performances 
               they are offerings.
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Values() {
             </span>
 
             <p>
-              Age, background, experience level —
+              Age, background, experience level
               none of it matters. The arts belong to
               everyone. All are welcome here.
             </p>

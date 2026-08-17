@@ -48,7 +48,7 @@ export default function Partner() {
             <div className="partner-buttons">
 
               <a
-                href="#"
+                href="/contact"
                 className="partner-btn-red"
               >
                 Enquire Now

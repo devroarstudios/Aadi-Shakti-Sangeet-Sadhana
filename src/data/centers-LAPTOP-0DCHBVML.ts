@@ -24,8 +24,6 @@ export interface Center {
   affiliation: string;
 
   motto: string;
-  images: string[];
-
 }
 
 export const centers: Center[] = [
@@ -34,14 +32,7 @@ export const centers: Center[] = [
 
     name: "Aadi Shakti Sangeet Sadhana - Ulwe",
 
-    logo: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
-
-    images: [
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
-  ],
+    logo: "YOUR_ULWE_LOGO",
 
     tagline: "Preserving Heritage Through Music and Dance",
 
@@ -94,14 +85,7 @@ export const centers: Center[] = [
 
     name: "Aadi Shakti Sangeet Sadhana - Kharghar",
 
-    logo: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
-
-    images: [
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
-  ],
+    logo: "YOUR_KHARGHAR_LOGO",
 
     tagline: "From Values to Devotion, From Devotion to Mastery",
 

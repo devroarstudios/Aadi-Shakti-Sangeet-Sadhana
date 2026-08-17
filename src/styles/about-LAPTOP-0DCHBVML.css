@@ -48,3 +48,31 @@
     font-size: 42px;
   }
 }
+
+.enquire-btn-dark{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    min-width:260px;
+    height:54px;
+
+    border:2px solid #fff;
+    background:transparent;
+    color:#fff;
+
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-size:12px;
+    font-weight:700;
+    font-family:"Raleway", sans-serif;
+
+    transition:all .3s ease;
+    cursor:pointer;
+}
+
+.enquire-btn-dark:hover{
+    background:#fff;
+    color:#111;
+}

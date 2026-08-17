@@ -24,7 +24,7 @@ export default function VisionMission() {
             <span className="vm-hindi-label">हमारी दृष्टि</span>
 
             <p>
-              To be Navi Mumbai's most trusted center for Indian classical arts —
+              To be Navi Mumbai's most trusted center for Indian classical arts 
               a place where every student, regardless of age or background,
               can find their artistic voice and connect to India's timeless
               cultural heritage.
@@ -44,7 +44,7 @@ export default function VisionMission() {
             <p>
               To provide accessible, high-quality classical arts education that
               honours the Guru-Shishya parampara while embracing joyful, modern
-              pedagogy — shaping students who perform with technical mastery and
+              pedagogy shaping students who perform with technical mastery and
               heartfelt expression.
             </p>
 

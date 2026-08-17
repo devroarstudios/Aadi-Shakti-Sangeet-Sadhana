@@ -27,81 +27,237 @@ export default async function CenterPage({
 
       <main className="center-page">
 
-        {/* Hero */}
+        {/* =========================
+            HERO
+        ========================= */}
 
-       <section className="center-hero">
+        <section className="center-hero">
 
-  <div className="center-hero-inner">
+          <div className="center-hero-inner">
 
-    <div className="center-logo-box">
-      <img
-        src={center.logo}
-        alt={center.name}
-      />
-    </div>
+            <div className="center-logo-box">
+              <img
+                src={center.logo}
+                alt={center.name}
+              />
+            </div>
 
-    <div className="center-content">
+            <div className="center-content">
 
-      <span className="center-eyebrow">
-        AFFILIATED CENTRE
-      </span>
+              <span className="center-eyebrow">
+                AFFILIATED center
+              </span>
 
-      <h1>{center.name}</h1>
+              <h1>{center.name}</h1>
 
-      <h2>{center.tagline}</h2>
+              <h2>{center.tagline}</h2>
 
-      <div className="center-divider"></div>
+              <div className="center-divider"></div>
 
-    </div>
+            </div>
 
-  </div>
+          </div>
 
-</section>
+        </section>
 
-        {/* About */}
 
-        <section className="center-details">
+        {/* =========================
+            center IMAGE GALLERY
+        ========================= */}
 
-          <div className="center-section">
+        <section className="center-gallery">
 
-            <h3>About the Centre</h3>
+          <div className="center-gallery-grid">
 
-            {center.about.map((text) => (
-              <p key={text}>{text}</p>
+            {center.images.map((image, index) => (
+
+              <div
+                className="center-gallery-item"
+                key={index}
+              >
+
+                <img
+                  src={image}
+                  alt={`${center.name} - ${index + 1}`}
+                />
+
+              </div>
+
             ))}
 
           </div>
 
-        <div className="center-section">
+        </section>
 
-  <h3>Courses Offered</h3>
 
-  <ul className="center-list">
-    {center.courses.map((course) => (
-      <li key={course}>
-        <span className="bullet"></span>
-        {course}
-      </li>
-    ))}
-  </ul>
+        {/* =========================
+            FACULTY / ARTIST
+        ========================= */}
 
-</div>
+        <section className="center-faculty">
 
-         <div className="center-section">
+          <div className="center-faculty-inner">
 
-  <h3>Our Signature Events</h3>
+            <h3 className="center-faculty-title">
+              Center Head
+            </h3>
 
-  <ul className="center-list">
-    {center.events.map((event) => (
-      <li key={event}>
-        <span className="bullet"></span>
-        {event}
-      </li>
-    ))}
-  </ul>
+            {center.faculty.map((person) => (
 
-</div>
+              <div
+                className="center-faculty-card"
+                key={person.name}
+              >
 
+                {/* Artist Image */}
+
+                <div className="center-faculty-image">
+
+                  <img
+                    src={person.image}
+                    alt={person.name}
+                  />
+
+                </div>
+
+
+                {/* Artist Information */}
+
+                <div className="center-faculty-content">
+
+                  <h4>
+                    {person.name}
+                  </h4>
+
+                  <div className="center-faculty-designation">
+                    {person.designation}
+                  </div>
+
+
+                  {/* Biography */}
+
+                  <div className="center-faculty-bio">
+
+                    {person.bio.map((paragraph) => (
+
+                      <p key={paragraph}>
+                        {paragraph}
+                      </p>
+
+                    ))}
+
+                  </div>
+
+
+                  {/* Achievements */}
+
+                  {person.achievements.length > 0 && (
+
+                    <div className="center-faculty-achievements">
+
+                      <h5>
+                        Major Achievements & Highlights
+                      </h5>
+
+                      <ul>
+
+                        {person.achievements.map((achievement) => (
+
+                          <li key={achievement}>
+                            {achievement}
+                          </li>
+
+                        ))}
+
+                      </ul>
+
+                    </div>
+
+                  )}
+
+                </div>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </section>
+
+
+        {/* =========================
+            CONTENT
+        ========================= */}
+
+        <section className="center-details">
+
+          {/* About */}
+
+          <div className="center-section">
+
+            <h3>About the center</h3>
+
+            {center.about.map((text) => (
+              <p key={text}>
+                {text}
+              </p>
+            ))}
+
+          </div>
+
+
+          {/* Courses */}
+
+          <div className="center-section">
+
+            <h3>Courses Offered</h3>
+
+            <ul className="center-list">
+
+              {center.courses.map((course) => (
+
+                <li key={course}>
+
+                  <span className="bullet"></span>
+
+                  {course}
+
+                </li>
+
+              ))}
+
+            </ul>
+
+          </div>
+
+
+          {/* Events */}
+
+          <div className="center-section">
+
+            <h3>Our Signature Events</h3>
+
+            <ul className="center-list">
+
+              {center.events.map((event) => (
+
+                <li key={event}>
+
+                  <span className="bullet"></span>
+
+                  {event}
+
+                </li>
+
+              ))}
+
+            </ul>
+
+          </div>
+
+
+          {/* Contact */}
 
           <div className="center-section">
 
@@ -111,7 +267,11 @@ export default async function CenterPage({
 
             <p>{center.phone}</p>
 
-            <p>{center.alternatePhone}</p>
+            {center.alternatePhone && (
+              <p>{center.alternatePhone}</p>
+            )}
+
+            <p>{center.hours}</p>
 
           </div>
 

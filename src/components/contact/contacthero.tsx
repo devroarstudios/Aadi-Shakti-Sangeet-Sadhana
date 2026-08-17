@@ -16,7 +16,7 @@ export default function CourseHero() {
           </span>
 
           <p>
-            Reach out to either of our centers — we’d love to hear from you.
+            Reach out to either of our centers we’d love to hear from you.
           </p>
 
         </div>

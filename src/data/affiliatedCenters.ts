@@ -47,21 +47,24 @@ export const affiliatedCenters: AffiliatedCenter[] = [
 
   faculty: [
   {
-    name: "Praween Sharma Mehta",
+    name: "Paridhi Sharma Mehta",
 
-    image: "YOUR_PRAWEEN_IMAGE_URL",
+    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
 
-    designation: "YOUR DESIGNATION",
+    designation: "Kathak Guru & Choreographer",
 
     bio: [
-      "ADD PRAWEEN SHARMA MEHTA'S BIOGRAPHY HERE",
-    ],
+    "Dedicated Kathak artiste, educator, and choreographer with over 12 years of experience in Indian classical dance and music.",
+    "Senior disciple of Guru Shri Ankit Kumar Pandey, trained in Kathak and music at Aadi Shakti School of Music and Dance.",
+    "Founder of Nrutya-Sadhana School of Dance and Music in Chandigarh, dedicated to promoting Indian classical arts and nurturing young talent."
+  ],
 
-    achievements: [
-      "ADD ACHIEVEMENT 1",
-      "ADD ACHIEVEMENT 2",
-      "ADD ACHIEVEMENT 3",
-    ],
+  achievements: [
+    "Earned the prestigious Kathak Visharad degree from Pracheen Kala Kendra, Chandigarh.",
+    "Established Nrutya-Sadhana School of Dance and Music in Chandigarh to promote Indian classical arts and nurture young talent.",
+    "Successfully contributed to Indian classical dance and music for over 12 years as an artiste, educator, and choreographer.",
+    "Continues to uphold and promote the traditional Guru-Shishya Parampara through teaching and artistic practice."
+  ],
   },
 ],
 

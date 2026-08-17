@@ -17,14 +17,19 @@ export default function GalleryMoment() {
     <section className="gallery-moment-wrapper">
       <div className="gallery-moment-inner">
 
-        {/* SECTION HEADER */}
+        {/* =========================
+            SECTION HEADER
+        ========================= */}
 
         <div className="gallery-section-header">
+
           <span className="gallery-eyebrow">
             Our Moments
           </span>
 
-          <h2>Life at Aadi Shakti</h2>
+          <h2>
+            Life at Aadi Shakti
+          </h2>
 
           <span className="gallery-hindi">
             आदि शक्ति में जीवन
@@ -35,9 +40,13 @@ export default function GalleryMoment() {
             <div className="dia"></div>
             <span></span>
           </div>
+
         </div>
 
-        {/* FILTERS */}
+
+        {/* =========================
+            FILTERS
+        ========================= */}
 
         <div className="gallery-filter-wrapper">
 
@@ -88,29 +97,40 @@ export default function GalleryMoment() {
 
         </div>
 
-        {/* GALLERY GRID */}
+
+        {/* =========================
+            GALLERY GRID
+        ========================= */}
 
         <div className="gallery-moment-grid">
 
           {filteredImages.map((item, index) => (
+
             <div
-              key={index}
+              key={`${item.image}-${index}`}
               className="gallery-moment-item"
             >
+
               <img
                 src={item.image}
                 alt={item.alt}
                 className="gallery-moment-image"
               />
+
             </div>
+
           ))}
 
         </div>
 
-        {/* FOOTNOTE */}
+
+        {/* =========================
+            FOOTNOTE
+        ========================= */}
 
         <p className="gallery-moment-note">
-          Gallery is updated regularly. Follow us on Instagram for the latest.
+          Gallery is updated regularly. Follow us on Instagram
+          for the latest.
         </p>
 
       </div>

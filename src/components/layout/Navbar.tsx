@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="nav-inner">
         <Link href="/" className="logo-area">
           <Image
-            src="/aadi_shakti_logo.png"
+            src="https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp"
             alt="Aadi Shakti Sangeet Sadhana"
             height={90}
             width={90}

@@ -20,6 +20,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aadi Shakti Sangeet Sadhana",
   description: "Indian Classical Music & Dance Academy",
+
+  icons: {
+    icon: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
+    shortcut: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
+    apple: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791479/aadi_shakti_logo_vdlulk.webp",
+  },
 };
 
 export default function RootLayout({

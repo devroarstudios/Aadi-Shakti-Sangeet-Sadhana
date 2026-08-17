@@ -14,17 +14,17 @@ export default function AboutHero() {
           <span className="hindi-h">आदि शक्ति संगीत साधना</span>
           <p>
             Named after the primordial divine feminine energy, our academy is a
-            sanctuary where music and dance are not merely skills — they are a
+            sanctuary where music and dance are not merely skills they are a
             sacred practice, a way of life.
           </p>
           <p>
-            With two thriving centers in Navi Mumbai — Kharghar and Ulwe — we
+            With two thriving centers in Navi Mumbai Kharghar and Ulwe we
             nurture students of all ages, backgrounds and experience levels in
             the rich traditions of Indian classical arts.
           </p>
           <p>
             Our teaching philosophy blends rigorous classical training with
-            joyful, modern pedagogy — creating artists who are both technically
+            joyful, modern pedagogy creating artists who are both technically
             accomplished and spiritually connected to their art.
           </p>
         </div>

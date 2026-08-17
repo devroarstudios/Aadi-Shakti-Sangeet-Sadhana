@@ -51,7 +51,7 @@ export default function Journey() {
                 <span>
                   New batches for ladies and adults added. Curriculum broadens
                   to include classical vocal, semi-classical dance, and
-                  Bollywood singing — something for every aspiration.
+                  Bollywood singing something for every aspiration.
                 </span>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function Journey() {
               <div className="journey-row">
                 <span className="journey-icon">◆</span>
                 <span>
-                  Students take the stage for the first annual showcase —
+                  Students take the stage for the first annual showcase 
                   a momentous milestone. Families, teachers, and the
                   community united in celebration of young talent.
                 </span>
@@ -84,7 +84,7 @@ export default function Journey() {
                 <span className="journey-icon">◆</span>
                 <span>
                   Growing demand leads to our second center in Tejas Symphony,
-                  Sector 9, Ulwe — bringing classical arts closer to even
+                  Sector 9, Ulwe bringing classical arts closer to even
                   more families across Navi Mumbai.
                 </span>
               </div>
@@ -117,7 +117,7 @@ export default function Journey() {
               <div className="journey-row">
                 <span className="journey-icon">◆</span>
                 <span>
-                  We continue to grow, inspire and teach — with new batches,
+                  We continue to grow, inspire and teach with new batches,
                   new courses and the same unwavering dedication to Indian
                   classical music and dance.
                 </span>

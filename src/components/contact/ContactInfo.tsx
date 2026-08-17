@@ -125,7 +125,7 @@ export default function ContactInfo() {
   <br />
   Near Green Medical, Sector 20,
   <br />
-  Kharghar, Navi Mumbai — 410210
+  Kharghar, Navi Mumbai 410210
 
 
                 <strong>Tel:</strong>
@@ -183,10 +183,10 @@ export default function ContactInfo() {
 
               <div className="contact-section-header contact-left-header">
   <span className="contact-eyebrow">
-    Our Affiliated Centres
+    Our Affiliated centers
   </span>
 
-  <h2>Get In Touch</h2>
+  
 
   <span className="contact-hindi">
     संबद्ध केंद्र

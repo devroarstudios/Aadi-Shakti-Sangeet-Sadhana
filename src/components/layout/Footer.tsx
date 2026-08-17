@@ -23,7 +23,7 @@ export default function Footer() {
 />
 
           <p>
-            &ldquo;Where music is not a lesson — it is a way of life, a
+            &ldquo;Where music is not a lesson it is a way of life, a
             connection to the divine.&rdquo;
           </p>
 

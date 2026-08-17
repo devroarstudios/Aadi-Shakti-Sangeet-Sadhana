@@ -22,7 +22,7 @@ export default function Story() {
             Aadi Shakti Sangeet Sadhana is a premier institute dedicated to the
             preservation and propagation of Indian classical arts. Founded with a
             deep reverence for tradition, we nurture students of all ages through
-            disciplined, heart-centred learning.
+            disciplined, heart-centerd learning.
           </p>
 
           <p>

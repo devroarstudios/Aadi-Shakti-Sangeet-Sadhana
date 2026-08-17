@@ -34,7 +34,7 @@ export default function Partner() {
             <p>
               Affiliated centers benefit from the Aadi Shakti brand, our proven
               curriculum, access to certified guru training, and ongoing support
-              from our headquarters. You bring the space and dedication — we
+              from our headquarters. You bring the space and dedication we
               bring the system and the standards.
             </p>
 

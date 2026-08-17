@@ -43,7 +43,7 @@ export default async function CenterPage({
     <div className="center-content">
 
       <span className="center-eyebrow">
-        AFFILIATED CENTRE
+        AFFILIATED center
       </span>
 
       <h1>{center.name}</h1>
@@ -64,7 +64,7 @@ export default async function CenterPage({
 
           <div className="center-section">
 
-            <h3>About the Centre</h3>
+            <h3>About the center</h3>
 
             {center.about.map((text) => (
               <p key={text}>{text}</p>

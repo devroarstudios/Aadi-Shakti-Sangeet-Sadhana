@@ -34,7 +34,7 @@ export default async function CenterDetailsPage({
         <section className="center-hero">
           <div className="center-hero-inner">
 
-            {/* Centre Logo */}
+            {/* center Logo */}
             <div className="center-logo-box">
               <img
                 src={center.logo}
@@ -42,11 +42,11 @@ export default async function CenterDetailsPage({
               />
             </div>
 
-            {/* Centre Information */}
+            {/* center Information */}
             <div className="center-content">
 
               <span className="center-eyebrow">
-                OUR CENTRE
+                OUR center
               </span>
 
               <h1>{center.name}</h1>
@@ -62,7 +62,7 @@ export default async function CenterDetailsPage({
 
 
         {/* =========================
-            CENTRE IMAGE GALLERY
+            center IMAGE GALLERY
         ========================= */}
 
         <section className="center-gallery">

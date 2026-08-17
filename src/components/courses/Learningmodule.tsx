@@ -51,7 +51,7 @@ export default function LearningModule() {
 
             <p>
               For students who cannot attend in person, we offer live
-              virtual sessions over video call — providing the same
+              virtual sessions over video call providing the same
               personalised instruction, feedback and connection with the
               guru from the comfort of home. Ideal for outstation students
               or those with busy schedules.

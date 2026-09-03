@@ -28,7 +28,6 @@ export interface AffiliatedCenter {
 }
 
 export const affiliatedCenters: AffiliatedCenter[] = [
-
   {
     slug: "nrutya-sadhana",
 
@@ -39,34 +38,35 @@ export const affiliatedCenters: AffiliatedCenter[] = [
     tagline: "Where Rhythm Meets Grace and Expression",
 
     images: [
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
-  ],
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
+    ],
 
-  faculty: [
-  {
-    name: "Paridhi Sharma Mehta",
+    faculty: [
+      {
+        name: "Paridhi Sharma Mehta",
 
-    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
+        image:
+          "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
 
-    designation: "Kathak Guru & Choreographer",
+        designation: "Kathak Guru & Choreographer",
 
-    bio: [
-    "Dedicated Kathak artiste, educator, and choreographer with over 12 years of experience in Indian classical dance and music.",
-    "Senior disciple of Guru Shri Ankit Kumar Pandey, trained in Kathak and music at Aadi Shakti School of Music and Dance.",
-    "Founder of Nrutya-Sadhana School of Dance and Music in Chandigarh, dedicated to promoting Indian classical arts and nurturing young talent."
-  ],
+        bio: [
+          "Dedicated Kathak artiste, educator, and choreographer with over 12 years of experience in Indian classical dance and music.",
+          "Senior disciple of Guru Shri Ankit Kumar Pandey, trained in Kathak and music at Aadi Shakti School of Music and Dance.",
+          "Founder of Nrutya-Sadhana School of Dance and Music in Chandigarh, dedicated to promoting Indian classical arts and nurturing young talent.",
+        ],
 
-  achievements: [
-    "Earned the prestigious Kathak Visharad degree from Pracheen Kala Kendra, Chandigarh.",
-    "Established Nrutya-Sadhana School of Dance and Music in Chandigarh to promote Indian classical arts and nurture young talent.",
-    "Successfully contributed to Indian classical dance and music for over 12 years as an artiste, educator, and choreographer.",
-    "Continues to uphold and promote the traditional Guru-Shishya Parampara through teaching and artistic practice."
-  ],
-  },
-],
+        achievements: [
+          "Earned the prestigious Kathak Visharad degree from Pracheen Kala Kendra, Chandigarh.",
+          "Established Nrutya-Sadhana School of Dance and Music in Chandigarh to promote Indian classical arts and nurture young talent.",
+          "Successfully contributed to Indian classical dance and music for over 12 years as an artiste, educator, and choreographer.",
+          "Continues to uphold and promote the traditional Guru-Shishya Parampara through teaching and artistic practice.",
+        ],
+      },
+    ],
 
     about: [
       "Welcome to Nrutya-Sadhana School of Dance and Music.",
@@ -104,7 +104,7 @@ export const affiliatedCenters: AffiliatedCenter[] = [
     hours: "Mon – Sat | Morning & Evening Batches Available",
   },
 
-    {
+  {
     slug: "ninaad",
 
     name: "Ninaad",
@@ -114,43 +114,44 @@ export const affiliatedCenters: AffiliatedCenter[] = [
     tagline: "Discover Your Rhythm, Ignite Your Soul",
 
     images: [
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
-    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
-  ],
-
-  faculty: [
-  {
-    name: "Renuka Agrawal",
-
-    image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371941/file_00000000df1871fa917eb4a9ef0ca7d9_1_jqghdg.png",
-
-    designation:
-      "Kathak Dancer • Vocalist • Choreographer • Folk Dance Specialist",
-
-    bio: [
-      "Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts.",
-
-      "She holds a Master's Degree in Kathak, Sangeet Vid (Vocal), and a Two-Year Diploma in Folk Dance from Indira Kala Sangeet Vishwavidyalaya, Khairagarh, Chhattisgarh.",
-
-      "She also holds a Master's Degree in Sanskrit from Dr. Harisingh Gour Vishwavidyalaya, Sagar, Madhya Pradesh.",
-
-      "At present, she is undergoing advanced training in Hindustani Classical Music and Kathak under the esteemed guidance of Guru Shri Ankit Kumar Pandey, further enriching her artistic journey and deepening her understanding of the traditional Indian performing arts.",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
     ],
 
-    achievements: [
-      "Recipient of the Young Artist Scholarship (1999–2000) in Kathak Dance.",
-      "Represented India in a Cultural Exchange Program in Dubai (2006) through Folk Dance.",
-      "Performed at Shilpgram Khajuraho Yuva Utsav and SCZCC, Nagpur.",
-      "Choreographer for Republic Day Celebrations at Rajpath, New Delhi.",
-      "Second Prize Winner at the 12th Yuva Sangeet Nritya Mahotsav, Ratnagiri.",
-      "Runner-Up at the National Final Round in Vizianagaram, Andhra Pradesh.",
-      "Choreographer for the 4th Military World Games, Hyderabad (2007).",
-      "Associated with artistic and cultural productions including Bahar 2025.",
+    faculty: [
+      {
+        name: "Renuka Agrawal",
+
+        image:
+          "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371941/file_00000000df1871fa917eb4a9ef0ca7d9_1_jqghdg.png",
+
+        designation:
+          "Kathak Dancer • Vocalist • Choreographer • Folk Dance Specialist",
+
+        bio: [
+          "Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts.",
+
+          "She holds a Master's Degree in Kathak, Sangeet Vid (Vocal), and a Two-Year Diploma in Folk Dance from Indira Kala Sangeet Vishwavidyalaya, Khairagarh, Chhattisgarh.",
+
+          "She also holds a Master's Degree in Sanskrit from Dr. Harisingh Gour Vishwavidyalaya, Sagar, Madhya Pradesh.",
+
+          "At present, she is undergoing advanced training in Hindustani Classical Music and Kathak under the esteemed guidance of Guru Shri Ankit Kumar Pandey, further enriching her artistic journey and deepening her understanding of the traditional Indian performing arts.",
+        ],
+
+        achievements: [
+          "Recipient of the Young Artist Scholarship (1999–2000) in Kathak Dance.",
+          "Represented India in a Cultural Exchange Program in Dubai (2006) through Folk Dance.",
+          "Performed at Shilpgram Khajuraho Yuva Utsav and SCZCC, Nagpur.",
+          "Choreographer for Republic Day Celebrations at Rajpath, New Delhi.",
+          "Second Prize Winner at the 12th Yuva Sangeet Nritya Mahotsav, Ratnagiri.",
+          "Runner-Up at the National Final Round in Vizianagaram, Andhra Pradesh.",
+          "Choreographer for the 4th Military World Games, Hyderabad (2007).",
+          "Associated with artistic and cultural productions including Bahar 2025.",
+        ],
+      },
     ],
-  },
-],
 
     about: [
       "Welcome to Ninaad Dance and Music Academy.",

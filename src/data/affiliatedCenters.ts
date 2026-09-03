@@ -89,10 +89,10 @@ export const affiliatedCenters: AffiliatedCenter[] = [
     logo: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791101/NINAAD_qzhlt6.png",
     tagline: "Discover Your Rhythm, Ignite Your Soul",
     images: [
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/keyboard_egei9b.png",
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791894/kids_kathak_phixx1.png",
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/sitar_opd4pc.png",
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1786791892/tabla_coordz.png",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788399488/IMG-20260612-WA0038.jpg_xfj2n7.jpg",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788399487/20260611_174538.jpg_heeni1.jpg",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788399485/20260613_155329.jpg_wa1i1p.jpg",
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788399484/IMG-20260527-WA0017.jpg_ugpgxk.jpg",
     ],
     faculty: [
       {

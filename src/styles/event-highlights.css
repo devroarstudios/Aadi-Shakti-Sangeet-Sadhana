@@ -30,7 +30,7 @@
   letter-spacing: 4px;
   text-transform: uppercase;
 
-  color: #C8102E;
+  color: #c8102e;
 }
 
 .events-header h2 {
@@ -50,7 +50,7 @@
   font-family: "Tiro Devanagari Hindi", serif;
   font-size: 22px;
 
-  color: #C8102E;
+  color: #c8102e;
 }
 
 .events-divider {
@@ -65,14 +65,14 @@
 .events-divider span {
   width: 60px;
   height: 1px;
-  background: #C8102E;
+  background: #c8102e;
 }
 
 .events-dia {
   width: 8px;
   height: 8px;
 
-  background: #C8102E;
+  background: #c8102e;
   transform: rotate(45deg);
 }
 
@@ -100,14 +100,16 @@
 .yt-card:hover {
   transform: translateY(-4px);
 
-  box-shadow:
-    0 12px 40px rgba(200, 16, 46, 0.15);
+  box-shadow: 0 12px 40px rgba(200, 16, 46, 0.15);
 }
 
 .yt-thumb {
   position: relative;
   padding-bottom: 56.25%;
   background: #0f0f0f;
+  aspect-ratio: 16/9;
+  height: 2rem;
+  overflow: hidden;
 }
 
 .yt-thumb iframe {
@@ -141,7 +143,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 
-  color: #C8102E;
+  color: #c8102e;
 }
 
 /* ==========================================
@@ -156,12 +158,12 @@
 .events-btn-red {
   display: inline-block;
 
-  background: #C8102E;
+  background: #c8102e;
   color: #ffffff;
 
   padding: 13px 36px;
 
-  border: 2px solid #C8102E;
+  border: 2px solid #c8102e;
 
   font-family: "Raleway", sans-serif;
   font-size: 11px;
@@ -176,8 +178,8 @@
 }
 
 .events-btn-red:hover {
-  background: #9B0A22;
-  border-color: #9B0A22;
+  background: #9b0a22;
+  border-color: #9b0a22;
 }
 
 /* ==========================================

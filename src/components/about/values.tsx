@@ -27,8 +27,9 @@ export default function Values() {
 
         <div className="values-grid">
 
+          {/* I. Sacred Practice */}
           <div className="value-card">
-            <div className="value-number">I</div>
+            <div className="value-number">I.</div>
 
             <h3>Sacred Practice</h3>
 
@@ -37,46 +38,51 @@ export default function Values() {
             </span>
 
             <p>
-              We approach every class as a devotional act.
-              Music and dance are not performances 
-              they are offerings.
+              We approach every class as an opportunity for devotion and
+              self-expression. For us, music and dance go beyond performance —
+              they become offerings of dedication, discipline, and devotion.
             </p>
           </div>
 
+          {/* II. Joyful Learning */}
           <div className="value-card">
-            <div className="value-number">II</div>
+            <div className="value-number">II.</div>
 
             <h3>Joyful Learning</h3>
 
             <span className="value-hindi">
-              आनंदमय शिक्षा
+              आनंदमय दशक्षा
             </span>
 
             <p>
-              Discipline and delight are not opposites.
-              Our classrooms are alive with warmth,
-              encouragement and joy.
+              We believe discipline and joy go hand in hand. Our learning
+              environment encourages curiosity, builds confidence, and
+              inspires students to grow through warmth, positivity, and
+              encouragement.
             </p>
           </div>
 
+          {/* III. Cultural Heritage */}
           <div className="value-card">
-            <div className="value-number">III</div>
+            <div className="value-number">III.</div>
 
             <h3>Cultural Heritage</h3>
 
             <span className="value-hindi">
-              सांस्कृतिक विरासत
+              सांस्कृतिक दक धरोहर
             </span>
 
             <p>
-              We are custodians of India's classical arts
-              tradition. Every lesson honours the lineage
-              of the masters before us.
+              We are committed to preserving and passing on the rich traditions
+              of Indian classical arts. Every lesson honours the wisdom of the
+              gurus and the artistic lineage that has shaped these timeless
+              traditions.
             </p>
           </div>
 
+          {/* IV. Inclusive Community */}
           <div className="value-card">
-            <div className="value-number">IV</div>
+            <div className="value-number">IV.</div>
 
             <h3>Inclusive Community</h3>
 
@@ -85,9 +91,10 @@ export default function Values() {
             </span>
 
             <p>
-              Age, background, experience level
-              none of it matters. The arts belong to
-              everyone. All are welcome here.
+              We believe the arts are for everyone, regardless of age,
+              background, or experience. We welcome every learner into a
+              supportive community where each individual has the opportunity
+              to explore, learn, and grow.
             </p>
           </div>
 

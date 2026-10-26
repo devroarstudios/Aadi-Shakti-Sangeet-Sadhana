@@ -28,27 +28,28 @@ export interface Course {
 }
 
 export const courses: Course[] = [
-  {
+ {
   slug: "vocal-training",
   title: "Vocal Training",
   hindi: "स्वर प्रशिक्षण",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785438231/vocal_fft2ah.jpg",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785438231/vocal_fft2ah.jpg",
 
   description:
-    "Designed for learners of all ages, developing vocal skills, rhythm, and musical expression with expert guidance.",
+    "Designed for learners of all ages, our vocal training nurtures singing skills, rhythm, and musical expression through expert guidance.",
 
-  tags: ["Classical", "Semi-Classical", "Age 4+"],
+  tags: ["Classical", "Semi-Classical Age 4+"],
 
   about:
-    "At Aadi Shakti, we offer training in Hindustani Classical and Light Music for students of all age groups. Our curriculum includes various genres such as Sufi, Ghazal, Bhajan, Thumri, Bollywood and more. The highlight of our training lies in our well-structured curriculum, combined with dedicated guidance, and a disciplined approach that helps every student grow with confidence and musical excellence.",
+    "At Aadi Shakti Sangeet Sadhana, we offer training in Hindustani Classical Music and Light Music for students of all ages. Our curriculum covers a variety of musical genres, including Sufi, Ghazal, Bhajan, Thumri, and Bollywood music. Our well-structured curriculum, combined with dedicated guidance and a disciplined approach to learning, helps students develop their musical skills, build confidence, and progress towards musical excellence.",
 
   levels: "Prarambhik to Bhaskar",
 
   duration: "1 Hour • Twice a Week",
 
   curriculum: [
-    "Hindustani Classical Raags",
-    "Semi-Classical (Bhajan, Ghazal, Thumri & Sufi)",
+    "Hindustani Classical Music (Ragas)",
+    "Semi-Classical Music (Bhajan, Ghazal, Thumri & Sufi)",
     "Bollywood Songs",
     "Singing Techniques",
     "Voice Training"
@@ -57,8 +58,8 @@ export const courses: Course[] = [
   examination: {
     title: "Examination System",
     items: [
-      "Aadi Shakti Sangeet Kala Kendra (Internal Examination)",
-      "Pracheen Kala Kendra (University Examination)"
+      "Aadi Shakti Sangeet Sadhana (Internal Examination)",
+      "Pracheen Kala Kendra, Prayag Sangeet Samiti, Prayagraj (University Examination)"
     ]
   },
 
@@ -182,30 +183,31 @@ export const courses: Course[] = [
   slug: "kathak-training",
   title: "Kathak Training",
   hindi: "कथक प्रशिक्षण",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785438228/DSC02371_zf45jv.jpg",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785438228/DSC02371_zf45jv.jpg",
 
   description:
-    "Traditional Kathak training that builds grace, precision, and artistic confidence through structured learning.",
+    "Our Kathak training focuses on traditional techniques, helping students develop grace, precision, rhythm, and artistic confidence through structured learning.",
 
-  tags: ["Classical", "Semi-Classical", "All Levels"],
+  tags: ["Classical", "Semi-Classical", "Age 4+"],
 
   about:
-    "At Aadi Shakti, we impart training in Kathak in its purest and most authentic form, with a strong emphasis on the rich tradition and subtle nuances of the Lucknow Gharana. Under the guidance of our experienced and dedicated faculty, students are taught every aspect of the art form with grace, precision, and deep artistic understanding. Our well-defined and structured curriculum ensures systematic learning and plays a vital role in the artistic growth and overall development of every student. Along with Kathak, students are also introduced to various semi-classical dance forms, helping them develop versatility while staying rooted in classical tradition.",
+    "At Aadi Shakti Sangeet Sadhana, we offer authentic Kathak training rooted in the rich traditions and distinctive nuances of the Lucknow Gharana. Under the guidance of our experienced and dedicated faculty, students develop grace, precision, rhythm, and a deeper understanding of this classical dance form. Our structured curriculum ensures systematic learning and supports each student's artistic growth and overall development. Alongside traditional Kathak, students also explore Bollywood Kathak, allowing them to develop versatility while maintaining a strong foundation in classical dance.",
 
   levels: "Prarambhik to Bhaskar",
 
   duration: "1 Hour • Twice a Week",
 
   curriculum: [
-    "Pure Kathak",
+    "Classical Kathak",
     "Bollywood Kathak"
   ],
 
   examination: {
     title: "Examination System",
     items: [
-      "Aadi Shakti Sangeet Kala Kendra (Internal Examination)",
-      "Pracheen Kala Kendra (University Examination)"
+      "Aadi Shakti Sangeet Sadhana (Internal Examination)",
+      "Pracheen Kala Kendra, Prayag Sangeet Samiti, Prayagraj (University Examination)"
     ]
   },
 
@@ -329,15 +331,16 @@ export const courses: Course[] = [
   slug: "instrumental-training",
   title: "Instrumental Training",
   hindi: "वाद्य संगीत प्रशिक्षण",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785438232/instrument_ksk4xm.jpg",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785438232/instrument_ksk4xm.jpg",
 
   description:
-    "Structured instrumental training that develops creativity, and confident musicianship through expert guidance.",
+    "Our instrumental training nurtures musical skills, creativity, and confidence through structured learning and expert guidance.",
 
-  tags: ["Classical", "Semi-Classical", "Age 5+"],
+  tags: ["Classical", "Light Music", "Age 5+"],
 
   about:
-    "At Aadi Shakti, we believe that instruments are the soul of music. We offer training in a variety of instruments, including Guitar, Keyboard, Harmonium, Tabla, Dholak, and Sitar under the guidance of skilled and experienced faculty. With a well-structured and thoughtfully designed curriculum, our training focuses not only on developing technical proficiency but also on nurturing creativity, musical understanding, and performance skills. Students are guided in a way that helps them grow into confident musicians while exploring the art of music production and composition.",
+    "At Aadi Shakti Sangeet Sadhana, we believe that musical instruments are an integral part of musical expression. We offer training in a variety of instruments, including guitar, keyboard, harmonium, tabla, dholak, and sitar, under the guidance of experienced and dedicated faculty. Our structured curriculum focuses on developing technical proficiency, musical understanding, creativity, and performance skills. Students are encouraged to explore their musical potential, build confidence, and develop an appreciation for the art of music.",
 
   levels: "Prarambhik to Bhaskar",
 
@@ -355,8 +358,8 @@ export const courses: Course[] = [
   examination: {
     title: "Examination System",
     items: [
-      "Aadi Shakti Sangeet Kala Kendra (Internal Examination)",
-      "Pracheen Kala Kendra (University Examination)"
+      "Aadi Shakti Sangeet Sadhana (Internal Examination)",
+      "Pracheen Kala Kendra, Prayag Sangeet Samiti, Prayagraj (University Examination)"
     ]
   },
 

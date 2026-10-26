@@ -18,45 +18,54 @@ export default function FounderStory() {
 
         <div className="fs-grid">
 
-          {/* LEFT CARD — white background */}
+          {/* LEFT CARD — Born from Devotion */}
           <div className="fs-card fs-card--white">
             <h3 className="fs-card-title">Born from Devotion</h3>
             <span className="hindi-label">साधना से जन्मी</span>
+
             <p className="fs-card-body fs-card-body--mb">
-              Aadi Shakti Sangeet Sadhana was founded with a single, sacred
-              conviction: that{' '}
-              <strong className="fs-strong">
-                music and dance are not hobbies they are a way of being.
-              </strong>{' '}
-              Named after the primordial divine feminine energy that animates
-              all creation, our academy exists to keep this living tradition
-              alive and accessible in Navi Mumbai.
+              Aadi Shakti Sangeet Sadhana was founded on a deeply held belief:
+              that music and dance are more than artistic pursuits — they are
+              a way of life. Inspired by the primordial divine feminine energy
+              that animates all creation, our academy is dedicated to
+              preserving and sharing the rich traditions of Indian classical
+              arts in Navi Mumbai.
             </p>
+
             <p className="fs-card-body">
-              Our founder began their journey in Indian classical arts as a
-              child, trained under accomplished gurus in the Guru-Shishya
-              parampara. Years of rigorous riyaaz, stage performances, and a
-              deep spiritual connection to the art form led to one defining
-              question: how do we bring this gift to the next generation?
+              Our founder began their journey in Indian classical arts during
+              childhood, learning under accomplished gurus through the
+              traditional Guru-Shishya parampara. Years of dedicated riyaaz,
+              stage performances, and a profound spiritual connection to the
+              arts inspired a defining question: How can this timeless
+              knowledge be passed on to the next generation?
             </p>
           </div>
 
-          {/* RIGHT CARD — cream background */}
+          {/* RIGHT CARD — Built with Discipline */}
           <div className="fs-card fs-card--cream">
             <h3 className="fs-card-title">Built with Discipline</h3>
             <span className="hindi-label">अनुशासन से निर्मित</span>
+
             <p className="fs-card-body fs-card-body--mb">
-              The answer was Aadi Shakti Sangeet Sadhana first established
-              in Kharghar, and later expanded to Ulwe. Today, the academy
-              serves over a hundred students of all ages and backgrounds.
+              What began as a vision grew into Aadi Shakti Sangeet Sadhana,
+              with centres in Ulwe and Kharghar, Navi Mumbai. Today, the
+              academy nurtures over a hundred students across generations
+              and backgrounds, guiding them in their artistic and personal
+              growth through the discipline and beauty of Indian classical
+              arts.
             </p>
+
             <div className="fs-quote-block">
               <p className="fs-quote-text">
-                &ldquo;When you surrender to the raga, when your body becomes
-                the dance that is when art becomes prayer. That is what we
-                teach here.&rdquo;
+                &ldquo;When you surrender to the raga and your body becomes
+                one with the dance, art transcends technique and becomes
+                prayer. That is the essence of our teaching.&rdquo;
               </p>
-              <span className="fs-quote-attr">Founder, Aadi Shakti</span>
+
+              <span className="fs-quote-attr">
+                — Founder, Aadi Shakti Sangeet Sadhana
+              </span>
             </div>
           </div>
 

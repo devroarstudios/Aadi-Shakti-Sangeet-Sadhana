@@ -25,7 +25,7 @@ export default function LegacySection() {
       </span>
 
       <h2>
-        We dedicate this journey to our beloved parents, whose support continues to guide us every step of the way.
+        With Love, Respect & Gratitude प्रेम, सम्मान एवं कृतज्ञता के साथ We dedicate this journey to our beloved parents, whose unwavering love, blessings, and support continue to guide and inspire us at every step. 
       </h2>
 
       

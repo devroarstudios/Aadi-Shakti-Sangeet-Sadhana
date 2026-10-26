@@ -12,31 +12,35 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
   {
-    slug: "ankit-kumar-pandey",
-    image:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371809/image_29_n2jujl.png",
-    name: "Ankit Kumar Pandey",
-    role: "Founder, Tabla Maestro & Guru",
-    roleHindi: "संस्थापक, तबला आचार्य एवं गुरु",
-    bio: "President's Award recipient, distinguished Tabla maestro, vocalist, and Kathak artist.",
-    video:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-    fullBio: `Ankit Kumar Pandey is a distinguished Indian classical musician, accomplished Tabla maestro, vocalist, and Kathak artist. Recognized for his exceptional artistry and dedication, he has devoted his life to preserving and promoting India's rich cultural heritage through performance, education, and mentorship.
+  slug: "ankit-kumar-pandey",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371809/image_29_n2jujl.png",
 
-His musical journey began at the age of three. Years of disciplined training transformed him into a respected performer and educator.
+  name: "Ankit Kumar Pandey",
+  role: "Founder & Master of Indian Classical Music",
+  roleHindi: "संस्थापक एवं भारतीय शास्त्रीय संगीत आचार्य",
 
-He is the recipient of the prestigious President's Award (Youth Festival, 2008) recognizing excellence and outstanding contribution to the performing arts.
+  bio:
+    "Distinguished Indian classical artist, accomplished tabla maestro, vocalist, Kathak artist, and versatile multi-instrumentalist.",
+
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Ankit Kumar Pandey is a distinguished Indian classical artist, accomplished tabla maestro, vocalist, Kathak artist, and versatile multi-instrumentalist. Proficient in a wide range of musical instruments, including synthesizer, guitar, harmonium, and many more, he brings a rich and diverse musical perspective to his artistic journey. With a deep commitment to preserving and promoting India's rich cultural heritage, he has dedicated his life to the performing arts through music, dance, education, and mentorship.
+
+His musical journey began at the age of three, and years of dedicated training and disciplined practice have shaped him into an accomplished performer and educator. He is the recipient of the prestigious President's Award at the Youth Festival in 2008, recognising his excellence and contribution to the performing arts.
 
 Academic Qualifications:
-• Master's Degree in Tabla – Allahabad University
-• Master's Degree in Classical Vocal Music – Allahabad University
-• Master's Degree in Kathak Dance – Allahabad University
+• Master's Degree in Tabla – University of Allahabad
+• Master's Degree in Classical Vocal Music – University of Allahabad
+• Master's Degree in Kathak Dance – University of Allahabad
 • Bachelor's Degree in Guitar – Prayag Sangeet Samiti, Allahabad
 
-He has collaborated with renowned artists including Pandit Birju Maharaj, Pandit Rajendra Gangani, Jaspinder Narula, Jagjit Singh, Anoop Jalota, Anuradha Paudwal, Ahmed Hussain & Mohammed Hussain, Bhupinder Singh, Talat Aziz, and Ravindra Jain.
+Collaborations with Renowned Artists:
+Throughout his artistic journey, Ankit Kumar Pandey has collaborated with several renowned artists, including Pandit Birju Maharaj, Pandit Rajendra Gangani, Jaspinder Narula, Jagjit Singh, Anup Jalota, Anuradha Paudwal, Ahmed Hussain and Mohammed Hussain, Bhupinder Singh, Talat Aziz, and Ravindra Jain.
 
-Through performance, education, and cultural preservation, Ankit Kumar Pandey continues to inspire future generations while promoting the timeless traditions of Indian classical arts.`,
-  },
+Through his artistic contributions, teaching, and dedication to cultural preservation, Ankit Kumar Pandey continues to inspire aspiring musicians and dancers while upholding the timeless traditions of Indian classical arts.`,
+},
   {
     slug: "aspardha-kumari",
     image:
@@ -56,27 +60,25 @@ With a strong focus on quality, student welfare, and organizational development,
 Her dedication, professionalism, and leadership remain one of the strongest pillars behind the success of Aadi Shakti Sangeet Sadhana.`,
   },
   {
-    slug: "rashmi-joshi-bokare",
-    image:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372196/file_00000000c93c720b991f2b2650f84d10_1_k4zmaw.png",
-    altImage:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397451/copy_of_rashmi_1_qid0qb.jpg",
-    name: "Rashmi Joshi Bokare",
-    role: "Hindustani Vocal & Sitar Guru",
-    roleHindi: "हिंदुस्तानी संगीत एवं सितार गुरु",
-    bio: "Dedicated educator and practitioner of Hindustani classical vocal and instrumental music.",
-    video:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-    fullBio: `Rashmi Joshi Bokare is a dedicated practitioner and educator of Hindustani Classical Music.
+  slug: "rashmi-joshi-bokare",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372196/file_00000000c93c720b991f2b2650f84d10_1_k4zmaw.png",
 
-In 1993, she earned the prestigious Sangeet Visharad degree from Prayag Sangeet Samiti, Allahabad. She also holds a degree in Instrumental Music with specialization in Sitar from the same institution.
+  altImage:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397451/copy_of_rashmi_1_qid0qb.jpg",
 
-These qualifications, recognized as equivalent to a Bachelor of Music, reflect her deep commitment to Indian classical arts.
+  name: "Rashmi Joshi Bokare",
+  role: "Hindustani Vocal & Sitar Guru",
+  roleHindi: "हिंदुस्तानी संगीत एवं सितार गुरु",
 
-Currently, she is pursuing advanced training under the esteemed guidance of Shri Ankit Kumar Pandey.
+  bio:
+    "Rashmi Joshi Bokare is a dedicated practitioner and educator of Hindustani Classical Music.",
 
-She serves as a music teacher at Aadi Shakti Sangeet Kala Kendra, Ulwe, Navi Mumbai, where she trains students in both Hindustani Vocal and Instrumental Music.`,
-  },
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Rashmi Joshi Bokare is a dedicated practitioner and educator of Hindustani Classical Music. In 1993, she earned the prestigious Sangeet Prabhakar degree from Prayag Sangeet Samiti, Prayagraj. She also holds a degree in Instrumental Music with specialization in Sitar from the same institution. These qualifications, recognized as equivalent to a Bachelor of Music, reflect her deep commitment to Indian classical arts. Currently, she is pursuing advanced training under the esteemed guidance of Shri Ankit Kumar Pandey. She serves as a music teacher at Aadi Shakti Sangeet Sadhana, Ulwe, Navi Mumbai, where she trains students in both Hindustani Vocal and Instrumental Music.`,
+},
 
   {
     slug: "sadia-hossain",
@@ -102,29 +104,25 @@ Presently, she serves as a Music and Dance Teacher at Aadi Shakti Sangeet Kala K
   },
 
   {
-    slug: "paridhi-mehta",
-    image:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
-    altImage:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397561/Paridhijpg_equnrl.jpg",
-    name: "Paridhi Mehta",
-    role: "Kathak Guru & Choreographer",
-    roleHindi: "कथक गुरु एवं नृत्य निर्देशक",
-    bio: "Dedicated Kathak artiste, educator, choreographer, and cultural ambassador.",
-    video:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-    fullBio: `Ms. Paridhi Mehta is a dedicated Kathak artiste, educator, and choreographer who has been actively contributing to Indian classical dance and music for over 12 years.
+  slug: "paridhi-mehta",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
 
-She is a senior disciple of Guru Shri Ankit Kumar Pandey and received her training in Kathak and music under his mentorship at Aadi Shakti School of Music and Dance.
+  altImage:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397561/Paridhijpg_equnrl.jpg",
 
-Alongside completing her MBA, she earned the prestigious Kathak Visharad degree from Pracheen Kala Kendra, Chandigarh.
+  name: "Paridhi Mehta",
+  role: "Kathak Guru & Choreographer",
+  roleHindi: "कथक गुरु एवं नृत्य निर्देशक",
 
-With the blessings and guidance of her Guru, she established Nrutya-Sadhana School of Dance and Music in Chandigarh with the vision of promoting Indian classical arts and nurturing young talent.
+  bio:
+    "Ms. Paridhi Mehta is a dedicated Kathak artiste, educator, and choreographer with over 12 years of experience in Indian classical dance and music.",
 
-Her institution proudly carries forward the values of the Guru-Shishya tradition and remains affiliated with Aadi Shakti Sangeet Sadhana, Ulwe.
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
 
-Through years of rigorous practice and artistic commitment, she continues to inspire students through her passion for dance, music, and cultural heritage.`,
-  },
+  fullBio: `Ms. Paridhi Mehta is a dedicated Kathak artiste, educator, and choreographer who has been actively contributing to Indian classical dance and music for over 12 years. She is a senior disciple of Guru Shri Ankit Kumar Pandey and received her training in Kathak and music under his mentorship at Aadi Shakti School of Music and Dance. Alongside completing her MBA, she earned the prestigious Kathak Prabhakar degree from Prayag Sangeet Samiti, Prayagraj. With the blessings and guidance of her Guru, she established Nrutya-Sadhana School of Dance and Music in Chandigarh with the vision of promoting Indian classical arts and nurturing young talent. Her institution proudly carries forward the values of the Guru-Shishya tradition and remains affiliated with Aadi Shakti Sangeet Sadhana, Ulwe. Through years of rigorous practice and artistic commitment, she continues to inspire students through her passion for dance, music, and cultural heritage.`,
+},
   {
     slug: "tanaya-bhattacharya",
     image:
@@ -151,22 +149,24 @@ She actively nurtures young talent as a Faculty of Instrumental Music, guiding s
   },
 
   {
-    slug: "renuka-agrawal",
-    image:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371941/file_00000000df1871fa917eb4a9ef0ca7d9_1_jqghdg.png",
-    altImage:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397649/Renuka_rkm2dk.png",
-    name: "Renuka Agrawal",
-    role: "Kathak Guru & Vocalist",
-    roleHindi: "कथक गुरु एवं गायिका",
-    bio: "Accomplished Kathak artist, vocalist, choreographer, and folk dance specialist.",
-    video:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-    fullBio: `Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts.
+  slug: "renuka-agrawal",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371941/file_00000000df1871fa917eb4a9ef0ca7d9_1_jqghdg.png",
 
-She holds a Master's Degree in Kathak, Sangeet Vid (Vocal), and a Diploma in Folk Dance from Indira Kala Sangeet Vishwavidyalaya, Khairagarh. She also holds a Master's Degree in Sanskrit.
+  altImage:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397649/Renuka_rkm2dk.png",
 
-Currently, she is undergoing advanced training in Hindustani Classical Music and Kathak under Guru Shri Ankit Kumar Pandey.
+  name: "Renuka Agrawal",
+  role: "Kathak Guru & Vocalist",
+  roleHindi: "कथक गुरु एवं गायिका",
+
+  bio:
+    "Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts.",
+
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts. She holds a Master's Degree in Kathak, Sangeet Vid (Vocal), and a Diploma in Folk Dance from Indira Kala Sangeet Vishwavidyalaya, Khairagarh. She also holds a Master's Degree in Sanskrit. Currently, she is undergoing advanced training in Hindustani Classical Music and Kathak under Guru Shri Ankit Kumar Pandey.
 
 Major achievements include:
 • Recipient of the Young Artist Scholarship (1999–2000)
@@ -176,7 +176,7 @@ Major achievements include:
 • Choreographer for the 4th Military World Games, Hyderabad
 
 She continues to enrich the world of Indian classical arts through performance and teaching.`,
-  },
+},
 
   {
     slug: "sujit-shankar",
@@ -224,27 +224,22 @@ Currently associated with Nrutya-Sadhana School of Dance and Music as a Keyboard
   },
 
   {
-    slug: "shraddha-sharma",
-    image:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411009/IMG-20260619-WA0035.jpg_1_n6p4cz.png",
-    name: "Shraddha Sharma",
-    role: "Guitar Instructor & Hindustani Classical Musician",
-    roleHindi: "गिटार प्रशिक्षक एवं हिंदुस्तानी शास्त्रीय संगीतज्ञ",
-    bio: "Experienced guitarist and Hindustani Classical musician dedicated to nurturing confident musicians.",
-    video:
-      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-    fullBio: `Shraddha Sharma has been deeply connected with music since the age of ten. Her journey began with Western music and guitar and gradually expanded into Hindustani Classical Music, allowing her to explore music from diverse yet interconnected perspectives.
+  slug: "shraddha-sharma",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411009/IMG-20260619-WA0035.jpg_1_n6p4cz.png",
 
-She holds both Bachelor's and Master's degrees in Hindustani Classical Music. Alongside her academic training, she has spent years performing, composing, teaching, and continuously exploring the deeper dimensions of music.
+  name: "Shraddha Sharma",
+  role: "Guitar Instructor & Hindustani Classical Musician",
+  roleHindi: "गिटार प्रशिक्षक एवं हिंदुस्तानी शास्त्रीय संगीतज्ञ",
 
-As a guitar instructor, her goal extends beyond teaching songs. She focuses on helping students truly understand music by balancing technique, creativity, ear training, and music theory through personalized lessons.
+  bio:
+    "Shraddha Sharma has been deeply connected with music since the age of ten.",
 
-Drawing inspiration from both Western and Hindustani traditions, she strives to provide students with a broader musical perspective and a deeper appreciation of the art form.
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
 
-Apart from teaching, Shraddha has performed live in multiple cities, participated in numerous open mics, and worked as a content creator with platforms such as ShareChat and Moj.
-
-Whether teaching, performing, or studying music, she remains driven by her lifelong curiosity to understand music more deeply and share that understanding with others.`,
-  },
+  fullBio: `Shraddha Sharma has been deeply connected with music since the age of ten. Her journey began with Western music and guitar and gradually expanded into Hindustani Classical Music, allowing her to explore music from diverse yet interconnected perspectives. She holds both Bachelor's and Master's degrees in Hindustani Classical Music. Alongside her academic training, she has spent years performing, composing, teaching, and continuously exploring the deeper dimensions of music. As a guitar instructor, her goal extends beyond teaching songs. She focuses on helping students truly understand music by balancing technique, creativity, ear training, and music theory through personalized lessons. Drawing inspiration from both Western and Hindustani traditions, she strives to provide students with a broader musical perspective and a deeper appreciation of the art form. Apart from teaching, Shraddha has performed live in multiple cities, participated in numerous open mics, and worked as a content creator with platforms such as ShareChat and Moj. Whether teaching, performing, or studying music, she remains driven by her lifelong curiosity to understand music more deeply and share that understanding with others.`,
+},
 
   {
     slug: "prashikha-salvi",

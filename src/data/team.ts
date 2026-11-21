@@ -1,6 +1,7 @@
 export interface TeamMember {
   slug: string;
   image: string;
+  altImage?: string;
   name: string;
   role: string;
   roleHindi: string;
@@ -10,77 +11,88 @@ export interface TeamMember {
 }
 
 export const teamMembers: TeamMember[] = [
+  {
+  slug: "ankit-kumar-pandey",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371809/image_29_n2jujl.png",
 
-{
-slug: "ankit-kumar-pandey",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371809/image_29_n2jujl.png",
-name: "Ankit Kumar Pandey",
-role: "Founder, Tabla Maestro & Guru",
-roleHindi: "संस्थापक, तबला आचार्य एवं गुरु",
-bio: "President's Award recipient, distinguished Tabla maestro, vocalist, and Kathak artist.",
-video: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-fullBio: `Ankit Kumar Pandey is a distinguished Indian classical musician, accomplished Tabla maestro, vocalist, and Kathak artist. Recognized for his exceptional artistry and dedication, he has devoted his life to preserving and promoting India's rich cultural heritage through performance, education, and mentorship.
+  name: "Ankit Kumar Pandey",
+  role: "Founder & Master of Indian Classical Music",
+  roleHindi: "संस्थापक एवं भारतीय शास्त्रीय संगीत आचार्य",
 
-His musical journey began at the age of three. Years of disciplined training transformed him into a respected performer and educator.
+  bio:
+    "Distinguished Indian classical artist, accomplished tabla maestro, vocalist, Kathak artist, and versatile multi-instrumentalist.",
 
-He is the recipient of the prestigious President's Award (Youth Festival, 2008) recognizing excellence and outstanding contribution to the performing arts.
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Ankit Kumar Pandey is a distinguished Indian classical artist, accomplished tabla maestro, vocalist, Kathak artist, and versatile multi-instrumentalist. Proficient in a wide range of musical instruments, including synthesizer, guitar, harmonium, and many more, he brings a rich and diverse musical perspective to his artistic journey. With a deep commitment to preserving and promoting India's rich cultural heritage, he has dedicated his life to the performing arts through music, dance, education, and mentorship.
+
+His musical journey began at the age of three, and years of dedicated training and disciplined practice have shaped him into an accomplished performer and educator. He is the recipient of the prestigious President's Award at the Youth Festival in 2008, recognising his excellence and contribution to the performing arts.
 
 Academic Qualifications:
-• Master's Degree in Tabla – Allahabad University
-• Master's Degree in Classical Vocal Music – Allahabad University
-• Master's Degree in Kathak Dance – Allahabad University
+• Master's Degree in Tabla – University of Allahabad
+• Master's Degree in Classical Vocal Music – University of Allahabad
+• Master's Degree in Kathak Dance – University of Allahabad
 • Bachelor's Degree in Guitar – Prayag Sangeet Samiti, Allahabad
 
-He has collaborated with renowned artists including Pandit Birju Maharaj, Pandit Rajendra Gangani, Jaspinder Narula, Jagjit Singh, Anoop Jalota, Anuradha Paudwal, Ahmed Hussain & Mohammed Hussain, Bhupinder Singh, Talat Aziz, and Ravindra Jain.
+Collaborations with Renowned Artists:
+Throughout his artistic journey, Ankit Kumar Pandey has collaborated with several renowned artists, including Pandit Birju Maharaj, Pandit Rajendra Gangani, Jaspinder Narula, Jagjit Singh, Anup Jalota, Anuradha Paudwal, Ahmed Hussain and Mohammed Hussain, Bhupinder Singh, Talat Aziz, and Ravindra Jain.
 
-Through performance, education, and cultural preservation, Ankit Kumar Pandey continues to inspire future generations while promoting the timeless traditions of Indian classical arts.`
+Through his artistic contributions, teaching, and dedication to cultural preservation, Ankit Kumar Pandey continues to inspire aspiring musicians and dancers while upholding the timeless traditions of Indian classical arts.`,
 },
-
-{
-slug: "aspardha-kumari",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782410745/image_30_r3qhkp.png",
-name: "Aspardha Kumari",
-role: "Managing Director – Administration & Operations",
-roleHindi: "प्रबंध निदेशक – प्रशासन एवं संचालन",
-bio: "MBA graduate and dedicated leader overseeing administration and operations at Aadi Shakti Sangeet Sadhana.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Aspardha Kumari is an MBA graduate and a dedicated professional known for her exceptional organizational and leadership skills. She has been an integral part of Aadi Shakti Sangeet Sadhana since its foundation, working alongside Ankit Kumar Pandey in building the institution.
+  {
+    slug: "aspardha-kumari",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782410745/image_30_r3qhkp.png",
+    name: "Aspardha Kumari",
+    role: "Managing Director – Administration & Operations",
+    roleHindi: "प्रबंध निदेशक – प्रशासन एवं संचालन",
+    bio: "MBA graduate and dedicated leader overseeing administration and operations at Aadi Shakti Sangeet Sadhana.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Aspardha Kumari is an MBA graduate and a dedicated professional known for her exceptional organizational and leadership skills. She has been an integral part of Aadi Shakti Sangeet Sadhana since its foundation, working alongside Ankit Kumar Pandey in building the institution.
 
 She plays a pivotal role in the administration and overall management of the academy, ensuring the smooth execution of all academic, cultural, and operational activities. Her meticulous planning, disciplined approach, and commitment to excellence have significantly contributed to the institution's growth and reputation.
 
 With a strong focus on quality, student welfare, and organizational development, Aspardha Kumari continues to strengthen the vision of Aadi Shakti Sangeet Sadhana, making it a trusted destination for music and dance education.
 
-Her dedication, professionalism, and leadership remain one of the strongest pillars behind the success of Aadi Shakti Sangeet Sadhana.`
+Her dedication, professionalism, and leadership remain one of the strongest pillars behind the success of Aadi Shakti Sangeet Sadhana.`,
+  },
+  {
+  slug: "rashmi-joshi-bokare",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372196/file_00000000c93c720b991f2b2650f84d10_1_k4zmaw.png",
+
+  altImage:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397451/copy_of_rashmi_1_qid0qb.jpg",
+
+  name: "Rashmi Joshi Bokare",
+  role: "Hindustani Vocal & Sitar Guru",
+  roleHindi: "हिंदुस्तानी संगीत एवं सितार गुरु",
+
+  bio:
+    "Rashmi Joshi Bokare is a dedicated practitioner and educator of Hindustani Classical Music.",
+
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Rashmi Joshi Bokare is a dedicated practitioner and educator of Hindustani Classical Music. In 1993, she earned the prestigious Sangeet Prabhakar degree from Prayag Sangeet Samiti, Prayagraj. She also holds a degree in Instrumental Music with specialization in Sitar from the same institution. These qualifications, recognized as equivalent to a Bachelor of Music, reflect her deep commitment to Indian classical arts. Currently, she is pursuing advanced training under the esteemed guidance of Shri Ankit Kumar Pandey. She serves as a music teacher at Aadi Shakti Sangeet Sadhana, Ulwe, Navi Mumbai, where she trains students in both Hindustani Vocal and Instrumental Music.`,
 },
 
-{
-slug: "rashmi-joshi-bokare",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372196/file_00000000c93c720b991f2b2650f84d10_1_k4zmaw.png",
-name: "Rashmi Joshi Bokare",
-role: "Hindustani Vocal & Sitar Guru",
-roleHindi: "हिंदुस्तानी संगीत एवं सितार गुरु",
-bio: "Dedicated educator and practitioner of Hindustani classical vocal and instrumental music.",
-video: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Rashmi Joshi Bokare is a dedicated practitioner and educator of Hindustani Classical Music.
-
-In 1993, she earned the prestigious Sangeet Visharad degree from Prayag Sangeet Samiti, Allahabad. She also holds a degree in Instrumental Music with specialization in Sitar from the same institution.
-
-These qualifications, recognized as equivalent to a Bachelor of Music, reflect her deep commitment to Indian classical arts.
-
-Currently, she is pursuing advanced training under the esteemed guidance of Shri Ankit Kumar Pandey.
-
-She serves as a music teacher at Aadi Shakti Sangeet Kala Kendra, Ulwe, Navi Mumbai, where she trains students in both Hindustani Vocal and Instrumental Music.`
-},
-
-{
-slug: "sadia-hossain",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372275/file_0000000034ec722f9a94bc5ac3174236_1_vr3yxv.png",
-name: "Sadia Hossain",
-role: "Music & Kathak Teacher",
-roleHindi: "संगीत एवं कथक शिक्षिका",
-bio: "Dedicated educator of Hindustani Classical Music and Kathak Dance.",
-video: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
-fullBio: `Sadia Hossain is a dedicated practitioner and educator of Hindustani Classical Music and Kathak Dance.
+  {
+    slug: "sadia-hossain",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372275/file_0000000034ec722f9a94bc5ac3174236_1_vr3yxv.png",
+    altImage:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397839/copy_of_sadiya_n1slch.jpg",
+    name: "Sadia Hossain",
+    role: "Music & Kathak Teacher",
+    roleHindi: "संगीत एवं कथक शिक्षिका",
+    bio: "Dedicated educator of Hindustani Classical Music and Kathak Dance.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Sadia Hossain is a dedicated practitioner and educator of Hindustani Classical Music and Kathak Dance.
 
 She began her artistic journey during her formative years and pursued training at Classic Music College, Malda, under Nikhil Bharat Sangeet Samiti.
 
@@ -88,39 +100,42 @@ Despite interruptions in her artistic journey due to unavoidable circumstances, 
 
 Driven by her commitment to artistic excellence, she furthered her training under the guidance of Shri Ankit Kumar Pandey.
 
-Presently, she serves as a Music and Dance Teacher at Aadi Shakti Sangeet Kala Kendra, Ulwe, Navi Mumbai, passionately training students in Hindustani Vocal Music and Kathak Dance.`
+Presently, she serves as a Music and Dance Teacher at Aadi Shakti Sangeet Kala Kendra, Ulwe, Navi Mumbai, passionately training students in Hindustani Vocal Music and Kathak Dance.`,
+  },
+
+  {
+  slug: "paridhi-mehta",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
+
+  altImage:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397561/Paridhijpg_equnrl.jpg",
+
+  name: "Paridhi Mehta",
+  role: "Kathak Guru & Choreographer",
+  roleHindi: "कथक गुरु एवं नृत्य निर्देशक",
+
+  bio:
+    "Ms. Paridhi Mehta is a dedicated Kathak artiste, educator, and choreographer with over 12 years of experience in Indian classical dance and music.",
+
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Ms. Paridhi Mehta is a dedicated Kathak artiste, educator, and choreographer who has been actively contributing to Indian classical dance and music for over 12 years. She is a senior disciple of Guru Shri Ankit Kumar Pandey and received her training in Kathak and music under his mentorship at Aadi Shakti School of Music and Dance. Alongside completing her MBA, she earned the prestigious Kathak Prabhakar degree from Prayag Sangeet Samiti, Prayagraj. With the blessings and guidance of her Guru, she established Nrutya-Sadhana School of Dance and Music in Chandigarh with the vision of promoting Indian classical arts and nurturing young talent. Her institution proudly carries forward the values of the Guru-Shishya tradition and remains affiliated with Aadi Shakti Sangeet Sadhana, Ulwe. Through years of rigorous practice and artistic commitment, she continues to inspire students through her passion for dance, music, and cultural heritage.`,
 },
-
-{
-slug: "paridhi-mehta",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372478/file_00000000bebc71fa960db2627b0624f5_1_i8lwkd.png",
-name: "Paridhi Mehta",
-role: "Kathak Guru & Choreographer",
-roleHindi: "कथक गुरु एवं नृत्य निर्देशक",
-bio: "Dedicated Kathak artiste, educator, choreographer, and cultural ambassador.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Ms. Paridhi Mehta is a dedicated Kathak artiste, educator, and choreographer who has been actively contributing to Indian classical dance and music for over 12 years.
-
-She is a senior disciple of Guru Shri Ankit Kumar Pandey and received her training in Kathak and music under his mentorship at Aadi Shakti School of Music and Dance.
-
-Alongside completing her MBA, she earned the prestigious Kathak Visharad degree from Pracheen Kala Kendra, Chandigarh.
-
-With the blessings and guidance of her Guru, she established Nrutya-Sadhana School of Dance and Music in Chandigarh with the vision of promoting Indian classical arts and nurturing young talent.
-
-Her institution proudly carries forward the values of the Guru-Shishya tradition and remains affiliated with Aadi Shakti Sangeet Sadhana, Ulwe.
-
-Through years of rigorous practice and artistic commitment, she continues to inspire students through her passion for dance, music, and cultural heritage.`
-},
-
-{
-slug: "tanaya-bhattacharya",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372383/IMG-20260604-WA0008.jpg_1_e9xrfq.png",
-name: "Tanaya Bhattacharya",
-role: "Instrumental Music Faculty",
-roleHindi: "वाद्य संगीत शिक्षिका",
-bio: "Passionate music educator nurturing young talent through instrumental music.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Tanaya Bhattacharya has been deeply passionate about music since childhood.
+  {
+    slug: "tanaya-bhattacharya",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372383/IMG-20260604-WA0008.jpg_1_e9xrfq.png",
+    altImage:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397940/copy_of_tanayajpg_uimsee.jpg",
+    name: "Tanaya Bhattacharya",
+    role: "Instrumental Music Faculty",
+    roleHindi: "वाद्य संगीत शिक्षिका",
+    bio: "Passionate music educator nurturing young talent through instrumental music.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Tanaya Bhattacharya has been deeply passionate about music since childhood.
 
 She began her formal training in Classical Vocal Music at Bharatiya Sangeet O Sanskriti Samsad and successfully completed multiple levels in Classical Vocal and Nazrul Geeti with First Division.
 
@@ -130,22 +145,28 @@ Although life circumstances interrupted her musical journey, her unwavering love
 
 Currently, she is pursuing advanced training under the guidance of Shri Ankit Kumar Pandey Ji at Aadi Shakti Sangeet Kala Kendra.
 
-She actively nurtures young talent as a Faculty of Instrumental Music, guiding students to develop both skill and passion for the art.`
-},
+She actively nurtures young talent as a Faculty of Instrumental Music, guiding students to develop both skill and passion for the art.`,
+  },
 
-{
-slug: "renuka-agrawal",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371941/file_00000000df1871fa917eb4a9ef0ca7d9_1_jqghdg.png",
-name: "Renuka Agrawal",
-role: "Kathak Guru & Vocalist",
-roleHindi: "कथक गुरु एवं गायिका",
-bio: "Accomplished Kathak artist, vocalist, choreographer, and folk dance specialist.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts.
+  {
+  slug: "renuka-agrawal",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782371941/file_00000000df1871fa917eb4a9ef0ca7d9_1_jqghdg.png",
 
-She holds a Master's Degree in Kathak, Sangeet Vid (Vocal), and a Diploma in Folk Dance from Indira Kala Sangeet Vishwavidyalaya, Khairagarh. She also holds a Master's Degree in Sanskrit.
+  altImage:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1788397649/Renuka_rkm2dk.png",
 
-Currently, she is undergoing advanced training in Hindustani Classical Music and Kathak under Guru Shri Ankit Kumar Pandey.
+  name: "Renuka Agrawal",
+  role: "Kathak Guru & Vocalist",
+  roleHindi: "कथक गुरु एवं गायिका",
+
+  bio:
+    "Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts.",
+
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Renuka Agrawal is an accomplished Kathak artist, vocalist, choreographer, and educator with extensive training in Indian classical and folk performing arts. She holds a Master's Degree in Kathak, Sangeet Vid (Vocal), and a Diploma in Folk Dance from Indira Kala Sangeet Vishwavidyalaya, Khairagarh. She also holds a Master's Degree in Sanskrit. Currently, she is undergoing advanced training in Hindustani Classical Music and Kathak under Guru Shri Ankit Kumar Pandey.
 
 Major achievements include:
 • Recipient of the Young Artist Scholarship (1999–2000)
@@ -154,19 +175,21 @@ Major achievements include:
 • Choreographer for Republic Day Celebrations at Rajpath, New Delhi
 • Choreographer for the 4th Military World Games, Hyderabad
 
-She continues to enrich the world of Indian classical arts through performance and teaching.`
+She continues to enrich the world of Indian classical arts through performance and teaching.`,
 },
 
-{
-  slug: "sujit-shankar",
-  image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782572600/image_32_xemfbe.png",
-  name: "Sujit Shankar",
-  role: "Vocal & Keyboard Teacher",
-  roleHindi: "वोकल एवं कीबोर्ड शिक्षक",
-  bio: "Dedicated Vocal and Keyboard Teacher with over 8 years of experience in music education, performance, and nurturing young talent.",
-  video: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+  {
+    slug: "sujit-shankar",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782572600/image_32_xemfbe.png",
+    name: "Sujit Shankar",
+    role: "Vocal & Keyboard Teacher",
+    roleHindi: "वोकल एवं कीबोर्ड शिक्षक",
+    bio: "Dedicated Vocal and Keyboard Teacher with over 8 years of experience in music education, performance, and nurturing young talent.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
 
-  fullBio: `Sujit Shankar is a dedicated Vocal and Keyboard Teacher with over eight years of teaching experience and is an esteemed faculty member at Aadi Shakti Sangeet Sadhana.
+    fullBio: `Sujit Shankar is a dedicated Vocal and Keyboard Teacher with over eight years of teaching experience and is an esteemed faculty member at Aadi Shakti Sangeet Sadhana.
 
 He has earned the prestigious Sangeet Prabhakar degree in Hindustani Classical Music from Prayag Sangeet Samiti, Prayagraj, reflecting his strong academic foundation in Indian classical music.
 
@@ -176,18 +199,20 @@ Alongside his teaching career, he has actively performed in numerous live stage 
 
 Passionate about nurturing young talent, Sujit believes that music education should be enjoyable, inspiring, and interactive. His warm and friendly approach helps him establish a strong connection with students, especially children, making every class engaging and enjoyable.
 
-His dedication, patience, and commitment to excellence have earned him the trust and admiration of both students and parents. Through his teaching, Sujit Shankar continues to inspire aspiring musicians while contributing meaningfully to the vision and mission of Aadi Shakti Sangeet Sadhana.`
-},
+His dedication, patience, and commitment to excellence have earned him the trust and admiration of both students and parents. Through his teaching, Sujit Shankar continues to inspire aspiring musicians while contributing meaningfully to the vision and mission of Aadi Shakti Sangeet Sadhana.`,
+  },
 
-{
-slug: "sagar-verma",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782410846/IMG_7122_1_qpzagl.png",
-name: "Sagar Verma",
-role: "Keyboard & Guitar Instructor",
-roleHindi: "कीबोर्ड एवं गिटार प्रशिक्षक",
-bio: "Musician, performer, composer, arranger, and dedicated instructor with extensive stage experience.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Sagar Verma is a musician, performer, composer, arranger, and instructor who has been actively contributing to the field of music for over nine years.
+  {
+    slug: "sagar-verma",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782410846/IMG_7122_1_qpzagl.png",
+    name: "Sagar Verma",
+    role: "Keyboard & Guitar Instructor",
+    roleHindi: "कीबोर्ड एवं गिटार प्रशिक्षक",
+    bio: "Musician, performer, composer, arranger, and dedicated instructor with extensive stage experience.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Sagar Verma is a musician, performer, composer, arranger, and instructor who has been actively contributing to the field of music for over nine years.
 
 A skilled Keyboardist and Guitarist, he has developed his musical expertise through years of dedicated practice, live performances, and teaching.
 
@@ -195,39 +220,38 @@ With more than seven years of stage experience, Sagar has performed at numerous 
 
 For the past four years, Sagar has been mentoring aspiring musicians, helping students build a strong foundation in Keyboard and Guitar. His teaching methodology emphasizes technique, creativity, discipline, and musical understanding.
 
-Currently associated with Nrutya-Sadhana School of Dance and Music as a Keyboard and Guitar Instructor, Sagar remains committed to inspiring the next generation of musicians and encouraging students to discover their full musical potential.`
+Currently associated with Nrutya-Sadhana School of Dance and Music as a Keyboard and Guitar Instructor, Sagar remains committed to inspiring the next generation of musicians and encouraging students to discover their full musical potential.`,
+  },
+
+  {
+  slug: "shraddha-sharma",
+  image:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411009/IMG-20260619-WA0035.jpg_1_n6p4cz.png",
+
+  name: "Shraddha Sharma",
+  role: "Guitar Instructor & Hindustani Classical Musician",
+  roleHindi: "गिटार प्रशिक्षक एवं हिंदुस्तानी शास्त्रीय संगीतज्ञ",
+
+  bio:
+    "Shraddha Sharma has been deeply connected with music since the age of ten.",
+
+  video:
+    "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+
+  fullBio: `Shraddha Sharma has been deeply connected with music since the age of ten. Her journey began with Western music and guitar and gradually expanded into Hindustani Classical Music, allowing her to explore music from diverse yet interconnected perspectives. She holds both Bachelor's and Master's degrees in Hindustani Classical Music. Alongside her academic training, she has spent years performing, composing, teaching, and continuously exploring the deeper dimensions of music. As a guitar instructor, her goal extends beyond teaching songs. She focuses on helping students truly understand music by balancing technique, creativity, ear training, and music theory through personalized lessons. Drawing inspiration from both Western and Hindustani traditions, she strives to provide students with a broader musical perspective and a deeper appreciation of the art form. Apart from teaching, Shraddha has performed live in multiple cities, participated in numerous open mics, and worked as a content creator with platforms such as ShareChat and Moj. Whether teaching, performing, or studying music, she remains driven by her lifelong curiosity to understand music more deeply and share that understanding with others.`,
 },
 
-{
-slug: "shraddha-sharma",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411009/IMG-20260619-WA0035.jpg_1_n6p4cz.png",
-name: "Shraddha Sharma",
-role: "Guitar Instructor & Hindustani Classical Musician",
-roleHindi: "गिटार प्रशिक्षक एवं हिंदुस्तानी शास्त्रीय संगीतज्ञ",
-bio: "Experienced guitarist and Hindustani Classical musician dedicated to nurturing confident musicians.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Shraddha Sharma has been deeply connected with music since the age of ten. Her journey began with Western music and guitar and gradually expanded into Hindustani Classical Music, allowing her to explore music from diverse yet interconnected perspectives.
-
-She holds both Bachelor's and Master's degrees in Hindustani Classical Music. Alongside her academic training, she has spent years performing, composing, teaching, and continuously exploring the deeper dimensions of music.
-
-As a guitar instructor, her goal extends beyond teaching songs. She focuses on helping students truly understand music by balancing technique, creativity, ear training, and music theory through personalized lessons.
-
-Drawing inspiration from both Western and Hindustani traditions, she strives to provide students with a broader musical perspective and a deeper appreciation of the art form.
-
-Apart from teaching, Shraddha has performed live in multiple cities, participated in numerous open mics, and worked as a content creator with platforms such as ShareChat and Moj.
-
-Whether teaching, performing, or studying music, she remains driven by her lifelong curiosity to understand music more deeply and share that understanding with others.`
-},
-
-{
-slug: "prashikha-salvi",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411859/file_000000001d047207aa01d33243cfcffe_1_bcpppd.png",
-name: "Prashikha Salvi",
-role: "Administrator & Coordinator",
-roleHindi: "प्रशासक एवं समन्वयक",
-bio: "Dedicated administrator skilled in coordination, organization, and institutional management.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Prashikha Salvi is a graduate with valuable experience in administrative management and coordination.
+  {
+    slug: "prashikha-salvi",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411859/file_000000001d047207aa01d33243cfcffe_1_bcpppd.png",
+    name: "Prashikha Salvi",
+    role: "Administrator & Coordinator",
+    roleHindi: "प्रशासक एवं समन्वयक",
+    bio: "Dedicated administrator skilled in coordination, organization, and institutional management.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Prashikha Salvi is a graduate with valuable experience in administrative management and coordination.
 
 Currently associated with Aadi Shakti Sangeet Sadhana, Ulwe, she is responsible for managing administrative functions, maintaining systematic records and documentation, coordinating with students, parents, and faculty members, and ensuring the smooth execution of daily institutional activities.
 
@@ -235,35 +259,39 @@ She also actively contributes to the planning and organization of academic, cult
 
 Prashikha possesses strong communication, coordination, organizational, and multitasking skills, enabling her to efficiently manage responsibilities in a professional environment.
 
-She is a sincere, dependable, and self-motivated individual who strongly believes in teamwork, continuous learning, and making meaningful contributions toward organizational growth and success.`
-},
+She is a sincere, dependable, and self-motivated individual who strongly believes in teamwork, continuous learning, and making meaningful contributions toward organizational growth and success.`,
+  },
 
-{
-slug: "esha-anchan",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372549/file_00000000f9387209881fff1d32751b68_1_g9ksdq.png",
-name: "Esha Anchan",
-role: "Administrator",
-roleHindi: "प्रशासक",
-bio: "Experienced administrator dedicated to academic coordination and student support.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Esha Anchan is a graduate with several years of experience in education and administration.
+  {
+    slug: "esha-anchan",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782372549/file_00000000f9387209881fff1d32751b68_1_g9ksdq.png",
+    name: "Esha Anchan",
+    role: "Administrator",
+    roleHindi: "प्रशासक",
+    bio: "Experienced administrator dedicated to academic coordination and student support.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Esha Anchan is a graduate with several years of experience in education and administration.
 
 She previously worked as a Teacher at Kid Land School, Kharghar, where she was responsible for lesson planning, classroom management, student development, and maintaining effective communication with parents.
 
 Currently, she serves as Administrator at Aadi Shakti Sangeet Sadhana, Kharghar, overseeing daily administrative operations, maintaining records and documentation, coordinating with students, parents, and staff, and assisting in organizing academic and cultural activities.
 
-She possesses strong communication, organizational, and time-management skills and is a dedicated, responsible, and hardworking professional committed to the growth and success of the institution.`
-},
+She possesses strong communication, organizational, and time-management skills and is a dedicated, responsible, and hardworking professional committed to the growth and success of the institution.`,
+  },
 
-{
-slug: "harpreet-kaur",
-image: "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411127/IMG_7123_1_yeye3y.png",
-name: "Harpreet Kaur",
-role: "Administration & Management Professional",
-roleHindi: "प्रशासन एवं प्रबंधन विशेषज्ञ",
-bio: "Dedicated administration professional ensuring smooth operations and effective institutional management.",
-video:"https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg" ,
-fullBio: `Harpreet Kaur is a dedicated Administration and Management Professional with extensive experience in overseeing daily operations, client coordination, and organizational management.
+  {
+    slug: "harpreet-kaur",
+    image:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1782411127/IMG_7123_1_yeye3y.png",
+    name: "Harpreet Kaur",
+    role: "Administration & Management Professional",
+    roleHindi: "प्रशासन एवं प्रबंधन विशेषज्ञ",
+    bio: "Dedicated administration professional ensuring smooth operations and effective institutional management.",
+    video:
+      "https://res.cloudinary.com/dcaiszxcb/image/upload/v1785318290/Bahar_Ulwe_05042025_128.JPG_z3wchh.jpg",
+    fullBio: `Harpreet Kaur is a dedicated Administration and Management Professional with extensive experience in overseeing daily operations, client coordination, and organizational management.
 
 She plays a key role in ensuring the smooth and efficient functioning of the institution by managing administrative responsibilities, handling reception operations, and maintaining effective communication with students, parents, and visitors.
 
@@ -273,8 +301,6 @@ Her professional approach, attention to detail, and ability to create a welcomin
 
 As an integral part of Nrutya-Sadhana School of Dance and Music, she actively contributes to maintaining a well-organized and supportive atmosphere, allowing both students and faculty to focus on learning and growth.
 
-Through her leadership, coordination, and passion for administrative excellence, Harpreet continues to support the institution's mission of providing quality education and fostering a positive learning environment.`
-},
-
-
+Through her leadership, coordination, and passion for administrative excellence, Harpreet continues to support the institution's mission of providing quality education and fostering a positive learning environment.`,
+  },
 ];

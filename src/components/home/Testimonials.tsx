@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { testimonials } from '@/data/testimonials';
+import { useEffect, useState } from "react";
+import { testimonials } from "@/data/testimonials";
 
 export default function Testimonials() {
   const [current, setCurrent] = useState(0);
@@ -20,27 +20,19 @@ export default function Testimonials() {
 
   const prevSlide = () => {
     setCurrent(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length
+      (prev) => (prev - 1 + testimonials.length) % testimonials.length,
     );
   };
 
   return (
     <section className="testimonial-section">
-
       <div className="team-inner">
-
         <div className="section-header">
-          <span className="eyebrow">
-            Testimonials
-          </span>
+          <span className="eyebrow">Testimonials</span>
 
-          <h2>
-            Voices of Our Students
-          </h2>
+          <h2>Voices of Our Students</h2>
 
-          <span className="hindi">
-            हमारे विद्यार्थियों की आवाज़
-          </span>
+          <span className="hindi">हमारे विद्यार्थियों की आवाज़</span>
 
           <div className="divider">
             <span></span>
@@ -50,16 +42,11 @@ export default function Testimonials() {
         </div>
 
         <div className="testimonial-slider">
-
-          <button
-            className="testimonial-arrow prev"
-            onClick={prevSlide}
-          >
+          <button className="testimonial-arrow prev" onClick={prevSlide}>
             ←
           </button>
 
           <div className="testimonial-card">
-
             <div className="testimonial-avatar">
               <img
                 src={testimonials[current].image}
@@ -67,35 +54,20 @@ export default function Testimonials() {
               />
             </div>
 
-            <h4>
-              {testimonials[current].name}
-            </h4>
+            <h4>{testimonials[current].name}</h4>
 
-            <div className="course">
-              {testimonials[current].course}
-            </div>
+            <div className="course">{testimonials[current].course}</div>
 
-            <p>
-              "{testimonials[current].review}"
-            </p>
+            <p>&quot;{testimonials[current].review}&quot;</p>
 
-            <div className="stars">
-              ★★★★★
-            </div>
-
+            <div className="stars">★★★★★</div>
           </div>
 
-          <button
-            className="testimonial-arrow next"
-            onClick={nextSlide}
-          >
+          <button className="testimonial-arrow next" onClick={nextSlide}>
             →
           </button>
-
         </div>
-
       </div>
-
     </section>
   );
 }

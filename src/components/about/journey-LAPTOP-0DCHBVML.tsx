@@ -111,7 +111,7 @@ export default function Journey() {
           <div className="journey-card">
             <span className="journey-badge">Today & Beyond</span>
 
-            <h3>Admissions Open 2025–26</h3>
+            <h3>Admissions Open 2027-28</h3>
 
             <div className="journey-info">
               <div className="journey-row">

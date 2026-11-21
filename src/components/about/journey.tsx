@@ -136,7 +136,7 @@ export default function Journey() {
               Today &amp; Beyond
             </span>
 
-            <h3>Admissions Open 2026–27</h3>
+            <h3>Admissions Open 2027-28</h3>
 
             <div className="journey-info">
               <div className="journey-row">

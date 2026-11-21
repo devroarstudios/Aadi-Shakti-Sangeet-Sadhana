@@ -1,3 +1,4 @@
+
 import { teamMembers } from "@/data/team";
 import { notFound } from "next/navigation";
 
@@ -46,25 +47,6 @@ export default async function GuruPage({
 
               {/* Biography */}
               <p className="guru-bio">{guru.fullBio}</p>
-
-              {/* Video Section */}
-              <section className="guru-video-section">
-                <h2>Performance & Journey</h2>
-
-                <p>
-                  Watch the artistic journey and performances of {guru.name}.
-                </p>
-
-                <div className="guru-video-container">
-                  <video controls playsInline poster="/images/video-poster.jpg">
-                    <source
-                      src="/videos/guru-performance.mp4"
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </section>
             </div>
           </div>
         </section>

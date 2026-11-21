@@ -39,7 +39,7 @@ export default function ContactMap() {
 
                 <span>
                   Shop 22, Green Heritage, Plot 79/80,
-                  Sector 20, Kharghar — 410210
+                  Sector 20, Kharghar - 410210
                 </span>
               </div>
 
